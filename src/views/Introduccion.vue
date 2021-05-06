@@ -7,7 +7,7 @@
       .titulo-principal__numero
         .h3
           i.fas.fa-info
-      .h3 Introducción
+      .h3 Introducción2
     
     figure.mb-5
       .video
