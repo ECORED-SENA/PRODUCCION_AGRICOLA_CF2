@@ -101,7 +101,7 @@ export default {
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        numero: '4',
+        numero: '3',
         titulo: 'Gestión de la calidad',
         desarrolloContenidos: true,
         subMenu: [

@@ -1,2 +1,67 @@
 .banner-principal .tarjeta .align-self-end
   align-self: center !important
+
+.bloque-texto-b
+  &::before
+    background-color: lighten($color-acento-botones, 40%)
+
+//-----------------
+
+.conTabla
+  overflow-x: auto  
+
+table
+  min-width: 700px
+
+  td
+    border: none
+
+.tabla-d
+
+  table
+
+  th
+    border: none
+    font-weight: $base-bold-font-weight
+    text-align: center
+    background-color: $color-primario
+    color: black
+
+  tr:nth-child(odd)
+    background-color: #F6F6F6
+
+  .lineSD
+    border-left: 3px solid rgba(0, 0, 0, 0.1)
+    border-right: 3px solid rgba(0, 0, 0, 0.1)
+
+//-------------------
+
+.lista-ul
+  li
+    i
+      color: $color-primario
+
+//-----------------
+
+.minWC
+  width: 80px !important
+
+.tarjeta--azul 
+  background-color: $color-sistema-h !important
+    
+//----------------
+
+.cajon--rojo
+  background-color: lighten($color-primario, 30%) !important
+  &::before
+    background-color: $color-acento-botones !important
+
+.cajon--azul
+  background-color: lighten($color-primario, 25%) !important
+  &::before
+    background-color: $color-acento-botones !important
+
+.colorBlue
+  background-color: lighten($color-acento-contenido, 30%) !important
+  &::before
+    background-color: $color-acento-contenido !important

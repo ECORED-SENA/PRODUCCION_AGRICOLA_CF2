@@ -19,7 +19,7 @@
 
     p.mb-4 Se deben identificar riesgos asociados a:
 
-    .row.mb-5.justify-content-center
+    .row.mb-4.justify-content-center
       .col-10
         ul.lista-ul
           li
@@ -50,29 +50,29 @@
     
     p.mb-4 Debido a que las actividades agrícolas producen impactos sobre el suelo, agua, aire, flora, fauna y paisaje es necesario conocer la normatividad aplicable para poder realizar su debido manejo ambiental y de esta manera evitar alguna sanción posible.
 
-    p.mb-4 Para identificar la normatividad aplicable a las actividades agrícolas es necesario realizar inicialmente un diagnóstico de estado y uso que se le dará a los diferentes componentes ambientales que hacen parte de la finca o unidad productiva agrícola; la normatividad general que se debe tener en cuenta es:
+    p.mb-5 Para identificar la normatividad aplicable a las actividades agrícolas es necesario realizar inicialmente un diagnóstico de estado y uso que se le dará a los diferentes componentes ambientales que hacen parte de la finca o unidad productiva agrícola; la normatividad general que se debe tener en cuenta es:
 
-    .col-lg-10
+    .col-lg-10.mb-4
       .cajon--rojo.p-4
         .h5   Norma ISO 14001:
         p esta norma de Sistemas de Gestión Ambiental (SGA) consigue que las empresas puedan demostrar que son responsables y están comprometidas con la protección del medio ambiente.
 
-    .col-lg-10
-      .cajon--rojo.p-4
+    .col-lg-10.mb-5
+      .cajon--azul.p-4
         .h5 Decreto 1713 de 2015 
         p Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible: en este decreto se realiza la compilación de reglamentaciones preexistentes en materia ambiental, los considerados de los decretos fuentes se entienden incorporados a su texto, aunque no se transcriba, para lo cual en cada artículo indica el origen del mismo.
 
-    .row.mb-5.justify-content
+    .row.justify-content
       .col-lg-10
-        .tarjeta-Avatar-b.mb-5
-            img(src='@/assets/curso/tema2/img01.svg' alt='AvatarTop')
+        .tarjeta-Avatar-b.mb-4
+            img.minWC(src='@/assets/curso/tema2/img01.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
               .h4 Parte 2. Reglamentaciones -Título 2- Biodiversidad:
               p Capítulo 1. Flora silvestre -Sección 18- Conservación de los recursos naturales en predios rurales.
 
       .col-lg-10
-        .tarjeta-Avatar-b.mb-5
-            img(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
+        .tarjeta-Avatar-b.mb-4
+            img.minWC(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
               .h4 Título 3- Aguas no marítimas:
               p.mb-4 Capítulo 2. Uso y aprovechamiento del agua - Sección 1- Sección 5 a 7 - Sección 22.
@@ -80,8 +80,8 @@
               p Capítulo 3. Ordenamiento del recurso hídrico y vertimientos - Sección 4 - Artículo   2.2.3.3.4.19. Control de contaminación por agroquímicos.  - Sección 9 - Artículo   2.2.3.3.9.5. TRANSITORIO. Criterios de calidad para uso agrícola.
 
       .col-lg-10
-        .tarjeta-Avatar-b.mb-5
-            img(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+        .tarjeta-Avatar-b.mb-4
+            img.minWC(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
               .h4 Título 6 - Residuos peligrosos:
               p.mb-4 Sección 4.  De la gestión y manejo de los empaques, envases, embalajes y residuos de productos o sustancias químicas con propiedad o característica peligrosa.
@@ -90,20 +90,22 @@
 
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
-            img(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+            img.minWC(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
               .h4 Título 7 - Prevención y control contaminación ambiental por el manejo de plaguicidas:
               p.mb-4 Capítulo 3. Del manejo integral de plaguicidas - Artículo   2.2.7.3.1.2. Consumo de plaguicidas.
 
               p Artículo   2.2.7.3.1.3. Almacenamiento de plaguicidas.
 
-      .row.mb-5.justify-content-right
-        .col-6
-          a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
+    .row.mb-5
+      .col-12.col-md-10
+        .row.mb-5.justify-content-end
+          .col-8
+            a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
 
     .titulo-segundo
       .h4 2.3 Aplicabilidad en la empresa
@@ -112,8 +114,8 @@
 
     p.mb-4 Con la gestión ambiental en el sector agrícola se busca:
 
-    .row.mb-5
-      .col-sm.mb-5.mb-sm-0
+    .row.mb-5.justify-content-end
+      .col-7
         ul.lista-ul
           li 
             i.fas.fa-angle-right
@@ -136,7 +138,7 @@
           li 
             i.fas.fa-angle-right
             |	Proponer al agricultor opciones tecnológicas de producción más “limpia” y uso racional del agua en el proceso del beneficio.
-      .col-sm.mb-5.mb-sm-0
+      .col-4
         ul.lista-ul
           li
             figure
@@ -146,82 +148,83 @@
       .h4 2.4. Estándares mínimos ambientales según el tipo de empresa
     
     p.mb-4 Para evitar el deterioro del medio ambiente causado por los diferentes impactos ambientales es necesario que la finca o unidad productiva formule un plan de gestión y conservación del medio ambiente, en el que se especifique el cuidado del componente hídrico, suelo y manejo adecuado de residuos y aguas residuales, complementario a este los generados en las diferentes actividades del proceso, a saber:
+    
+    .cajon--rojo.p-4.mb-4.colorBlue
+      .h6.text-center a. Recurso hídrico:   
+      .row
+        .col-8          
+          ul.lista-ul
+            li 
+              i.fas.fa-angle-right
+              |	Identifique las fuentes de agua. 
+            li 
+              i.fas.fa-angle-right
+              |	Aísle y proteja las fuentes de agua con cercas vivas (cultivos de especies adecuadas a la zona) a una distancia considerable, buscando impedir el acceso de personas y animales, así como la contaminación por aplicación de fertilizantes y plaguicidas.
+            li 
+              i.fas.fa-angle-right
+              |	Realice un análisis de riesgos en el que identifique los posibles contaminantes microbiológicos, químicos y físicos del agua, para esto se recomienda realizar un monitoreo del agua para consumo y demás actividades por lo menos una vez al año, mediante un análisis en un laboratorio acreditado, con el fin de controlar o minimizar los diferentes riesgos asociados al uso del agua. 
+            li 
+              i.fas.fa-angle-right
+              |	El resultado de los análisis debe quedar documentado y archivado para realizar acciones correctivas en caso de ser necesario. 
+            li 
+              i.fas.fa-angle-right
+              |	Identifique el tipo de calidad de agua que requiere para cada actividad dentro de la unidad productiva.
+            li 
+              i.fas.fa-angle-right
+              |	Para el uso, consumo humano y los procesos de postcosecha la finca o unidad productiva debe contar con agua potable. 
+            li 
+              i.fas.fa-angle-right
+              |	Si cuenta con tanques para el almacenamiento de agua recuerde que deben ser aseados con frecuencia, deben permanecer cerrados y su capacidad debe ser suficiente para garantizar el abastecimiento permanente de todo el sistema productivo. 
+            li 
+              i.fas.fa-angle-right
+              |	Debe calcular las necesidades del agua para el cultivo.
+            li 
+              i.fas.fa-angle-right
+              |	Registre cada vez que se realice el riego: consumo de agua, lote que se riega, fecha y el tiempo de riego.
+        .col-4
+          figure
+            img(src='@/assets/curso/tema2/img06.svg', alt='Recurso hídrico')
+    
+    .cajon--rojo.p-4
+      .h6.text-center b. Residuos sólidos:
+          
+      p.mb-4 Identifique los tipos de residuos que se generan en la finca o unidad productiva y registre en un documento; tenga en cuenta la siguiente clasificación:
 
-     .row
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--gris.p-4
-            .h4.text-center a. Recurso hídrico:
-            .row.mb-5
-              .col-sm.mb-5.mb-sm-0
-                ul.lista-ul
-                  li 
-                    i.fas.fa-angle-right
-                    |	Identifique las fuentes de agua. 
-                  li 
-                    i.fas.fa-angle-right
-                    |	Aísle y proteja las fuentes de agua con cercas vivas (cultivos de especies adecuadas a la zona) a una distancia considerable, buscando impedir el acceso de personas y animales, así como la contaminación por aplicación de fertilizantes y plaguicidas.
-                  li 
-                    i.fas.fa-angle-right
-                    |	Realice un análisis de riesgos en el que identifique los posibles contaminantes microbiológicos, químicos y físicos del agua, para esto se recomienda realizar un monitoreo del agua para consumo y demás actividades por lo menos una vez al año, mediante un análisis en un laboratorio acreditado, con el fin de controlar o minimizar los diferentes riesgos asociados al uso del agua. 
-                  li 
-                    i.fas.fa-angle-right
-                    |	El resultado de los análisis debe quedar documentado y archivado para realizar acciones correctivas en caso de ser necesario. 
-                  li 
-                    i.fas.fa-angle-right
-                    |	Identifique el tipo de calidad de agua que requiere para cada actividad dentro de la unidad productiva.
-                  li 
-                    i.fas.fa-angle-right
-                    |	Para el uso, consumo humano y los procesos de postcosecha la finca o unidad productiva debe contar con agua potable. 
-                  li 
-                    i.fas.fa-angle-right
-                    |	Si cuenta con tanques para el almacenamiento de agua recuerde que deben ser aseados con frecuencia, deben permanecer cerrados y su capacidad debe ser suficiente para garantizar el abastecimiento permanente de todo el sistema productivo. 
-                  li 
-                    i.fas.fa-angle-right
-                    |	Debe calcular las necesidades del agua para el cultivo.
-                  li 
-                    i.fas.fa-angle-right
-                    |	Registre cada vez que se realice el riego: consumo de agua, lote que se riega, fecha y el tiempo de riego.
-
-      .col-md-6.col-lg.mb-5
-        .tarjeta-Avatar
-          img(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--gris.p-4
-            .h4.text-center b. Residuos sólidos:
-            .row.mb-5
-              .col-sm.mb-5.mb-sm-0
-                ul.lista-ul
-                  p Identifique los tipos de residuos que se generan en la finca o unidad productiva y registre en un documento; tenga en cuenta la siguiente clasificación:  
-                    li 
-                      i.lista-ul__vineta
-                      |	Residuos agrícolas orgánicos: son todos los residuos que se generan de las actividades agrícolas en la finca, tales como empaques de productos (costales, bolsas y envases plásticos), fibras de tutorado o amarres de plantas.  
-                    li 
-                      i.lista-ul__vineta
-                      |	Residuos orgánicos: son todos los residuos que se descomponen con facilidad en el medio ambiente (residuos de cocina, estiércol, etc.).  
-                    li 
-                      i.lista-ul__vineta
-                      |	Residuos forestales: son los residuos como ramas, corteza de árboles, hojas y residuos de podas.
-                    li 
-                      i.lista-ul__vineta
-                      |	Residuos peligrosos -  químicos: son los restos de sustancias de productos químicos fitosanitarios o agroquímicos utilizados en las labores agrícolas.
-                    li 
-                      ul
-                        li
-                          i.lista-ul__vineta
-                          |	Identifique la cantidad y el tipo de residuo, tipo de disposición final que se debe dar según normativa y manejo que se da en la finca, y no olvide realizar la documentación de este mediante el registro de la caracterización de los residuos sólidos en formatos de seguimiento. 
-                        li 
-                          i.lista-ul__vineta
-                          |	Establezca un sistema para la clasificación de residuos de acuerdo a su tipo (contenedores- puntos ecológicos entre otros en lugares visibles y de fácil acceso, los contenedores deben estar debidamente rotulados).
-                        li 
-                          i.lista-ul__vineta
-                          |	Determine el uso de los residuos orgánicos, en caso de ser convertidos en abono orgánico, determinar el proceso y los controles para evitar el riesgo de propagación de enfermedades y documentar dicho proceso mediante la formulación de un procedimiento. 
-                        li 
-                          i.lista-ul__vineta
-                          |	Defina las acciones de reciclaje de los residuos producidos. 
-                        li 
-                          i.lista-ul__vineta
-                          |	Determine las áreas designadas para el almacenamiento de los residuos.
+      .row
+        .col-8           
+          ul.lista-ul 
+            li 
+              i.fas.fa-angle-right
+              |	Residuos agrícolas orgánicos: son todos los residuos que se generan de las actividades agrícolas en la finca, tales como empaques de productos (costales, bolsas y envases plásticos), fibras de tutorado o amarres de plantas.  
+            li 
+              i.fas.fa-angle-right
+              |	Residuos orgánicos: son todos los residuos que se descomponen con facilidad en el medio ambiente (residuos de cocina, estiércol, etc.).  
+            li 
+              i.fas.fa-angle-right
+              |	Residuos forestales: son los residuos como ramas, corteza de árboles, hojas y residuos de podas.
+            li 
+              i.fas.fa-angle-right
+              |	Residuos peligrosos -  químicos: son los restos de sustancias de productos químicos fitosanitarios o agroquímicos utilizados en las labores agrícolas.
+            li 
+              ul
+                li
+                  i.lista-ul__vineta
+                  |	Identifique la cantidad y el tipo de residuo, tipo de disposición final que se debe dar según normativa y manejo que se da en la finca, y no olvide realizar la documentación de este mediante el registro de la caracterización de los residuos sólidos en formatos de seguimiento. 
+                li 
+                  i.lista-ul__vineta
+                  |	Establezca un sistema para la clasificación de residuos de acuerdo a su tipo (contenedores- puntos ecológicos entre otros en lugares visibles y de fácil acceso, los contenedores deben estar debidamente rotulados).
+                li 
+                  i.lista-ul__vineta
+                  |	Determine el uso de los residuos orgánicos, en caso de ser convertidos en abono orgánico, determinar el proceso y los controles para evitar el riesgo de propagación de enfermedades y documentar dicho proceso mediante la formulación de un procedimiento. 
+                li 
+                  i.lista-ul__vineta
+                  |	Defina las acciones de reciclaje de los residuos producidos. 
+                li 
+                  i.lista-ul__vineta
+                  |	Determine las áreas designadas para el almacenamiento de los residuos.
+        .col-4
+          figure
+            img.w-75.mx-auto(src='@/assets/curso/tema2/img07.svg', alt='Residuos sólidos')                
 
 </template>
 
