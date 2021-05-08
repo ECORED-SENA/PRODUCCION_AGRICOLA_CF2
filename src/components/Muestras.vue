@@ -44,10 +44,10 @@ div
         p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
 
   .row.mb-5
-    .col-md-6
+   La cantidad de texto “Destacado” sea menor a tres líneas en breakpoint xl de bootstrap y tendrá un tamaño máximo de h4
       .h4 La cantidad de texto “Destacado” sea menor a tres líneas en breakpoint xl de bootstrap y tendrá un tamaño máximo de h4
-    .col-md-6
-      p La cantidad de texto “Destacado” sea menor a tres líneas tendrá un tamaño máximo de 24 e interlineado 30 puntos utilizando Roboto Bold, ya si el texto supera las 3 líneas se utilizará un tamaño de 20 puntos y un interlineado 27 puntos con una fuente de Roboto Regular.
+        .col-md-6
+          p La cantidad de texto “Destacado” sea menor a tres líneas tendrá un tamaño máximo de 24 e interlineado 30 puntos utilizando Roboto Bold, ya si el texto supera las 3 líneas se utilizará un tamaño de 20 puntos y un interlineado 27 puntos con una fuente de Roboto Regular.
 
   hr
 

@@ -4,137 +4,224 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .titulo-principal
-      .h3 Producción Audiovisual
+      .titulo-principal__numero
+        .h3 1
+      .h3 Gestión ambiental
+
+    p.mb-4 Una de las premisas de la implementación de buenas prácticas agrícolas es la responsabilidad en cuanto a producción más limpia, conservación de suelos y protección del medio ambiente y mantenimiento de la biodiversidad; es así que la gestión ambiental ayuda a los productores a cumplir con dicha premisa.
+
+    .titulo-segundo
+      .h4 2.1 Concepto
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+    p.mb-4 El sistema de gestión ambiental es el proceso que está orientado a resolver, mitigar y prevenir los problemas de carácter ambiental, con el propósito de lograr un desarrollo sostenible.
+
+    p.mb-4 Los sistemas productivos pueden generar impactos ambientales que no necesariamente se manifiestan dentro de los límites físicos del mismo. Por ello, es necesario identificar los riesgos ambientales asociados a la producción de cultivos intra/extra establecimiento y, las prácticas y tecnologías que los minimicen.
+
+    p.mb-4 Se deben identificar riesgos asociados a:
+
+    .row.mb-5.justify-content-center
+      .col-10
+        ul.lista-ul
+          li
+            i.fas.fa-angle-right
+            |	El suelo: conservación de la capacidad productiva del suelo (fertilidad química y física), erosión eólica y/o hídrica.
+          li
+            i.fas.fa-angle-right
+            |	Recursos hídricos en cuanto a cursos de agua superficial y subsuperficial: polución difusa, eutrofización de cuerpos de agua.
+          li
+            i.fas.fa-angle-right
+            |	El aire: emisión de gases por quema de residuos (bidones de productos fitosanitarios, por ejemplo).
+          li
+            i.fas.fa-angle-right
+            |	Manejo de residuos: realizar el triple lavado e inutilización de bidones plásticos de productos fitosanitarios.
+          li
+            i.fas.fa-angle-right
+            |	Identificar los centros de acopio cercanos al establecimiento para realizar la deposición final, teniendo en cuenta la legislación, según corresponda.
+          li
+            i.fas.fa-angle-right
+            |	La biodiversidad: relevar si se cuenta con un área protegida (parque nacional, reserva ecológica, etc.) en las cercanías del establecimiento para dimensionar el impacto de la actividad sobre las especies. Promocionar la implantación de zonas “buffer” o “barreras vegetales”.
+
+    p.mb-4 La identificación de riesgos debe ser seguida de una priorización sobre la cual se basa la planificación de incorporación progresiva de procesos asociados al cuidado del ambiente.
+
+    p.mb-5 La planificación debe estipular la incorporación de prácticas/tecnologías, con el fin de generar un proceso de mejora continua. El monitoreo a través de indicadores permite ver la evolución de los recursos naturales en función de los riesgos identificados inicialmente y otros nuevos que puedan surgir de la implementación de nuevas tecnologías. El desarrollo de tecnologías es dinámico, por lo que es necesario contar con un plan de capacitación. En la medida de lo posible se deben incorporar tecnologías que permitan reducir los impactos sobre el ambiente y las personas.
+
+    .titulo-segundo
+      .h4 2.2 Normatividad general
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    p.mb-4 Debido a que las actividades agrícolas producen impactos sobre el suelo, agua, aire, flora, fauna y paisaje es necesario conocer la normatividad aplicable para poder realizar su debido manejo ambiental y de esta manera evitar alguna sanción posible.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-4 Para identificar la normatividad aplicable a las actividades agrícolas es necesario realizar inicialmente un diagnóstico de estado y uso que se le dará a los diferentes componentes ambientales que hacen parte de la finca o unidad productiva agrícola; la normatividad general que se debe tener en cuenta es:
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    .col-lg-10
+      .cajon--rojo.p-4
+        .h5   Norma ISO 14001:
+        p esta norma de Sistemas de Gestión Ambiental (SGA) consigue que las empresas puedan demostrar que son responsables y están comprometidas con la protección del medio ambiente.
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    .col-lg-10
+      .cajon--rojo.p-4
+        .h5 Decreto 1713 de 2015 
+        p Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible: en este decreto se realiza la compilación de reglamentaciones preexistentes en materia ambiental, los considerados de los decretos fuentes se entienden incorporados a su texto, aunque no se transcriba, para lo cual en cada artículo indica el origen del mismo.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.mb-5.justify-content
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+            img(src='@/assets/curso/tema2/img01.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--azul.p-4
+              .h4 Parte 2. Reglamentaciones -Título 2- Biodiversidad:
+              p Capítulo 1. Flora silvestre -Sección 18- Conservación de los recursos naturales en predios rurales.
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+            img(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--azul.p-4
+              .h4 Título 3- Aguas no marítimas:
+              p.mb-4 Capítulo 2. Uso y aprovechamiento del agua - Sección 1- Sección 5 a 7 - Sección 22.
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+              p Capítulo 3. Ordenamiento del recurso hídrico y vertimientos - Sección 4 - Artículo   2.2.3.3.4.19. Control de contaminación por agroquímicos.  - Sección 9 - Artículo   2.2.3.3.9.5. TRANSITORIO. Criterios de calidad para uso agrícola.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+            img(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--azul.p-4
+              .h4 Título 6 - Residuos peligrosos:
+              p.mb-4 Sección 4.  De la gestión y manejo de los empaques, envases, embalajes y residuos de productos o sustancias químicas con propiedad o característica peligrosa.
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
+              p Sección 6. Del registro de generadores de residuos o desechos peligrosos.
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+      .col-lg-10
+        .tarjeta-Avatar-b.mb-5
+            img(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--azul.p-4
+              .h4 Título 7 - Prevención y control contaminación ambiental por el manejo de plaguicidas:
+              p.mb-4 Capítulo 3. Del manejo integral de plaguicidas - Artículo   2.2.7.3.1.2. Consumo de plaguicidas.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              p Artículo   2.2.7.3.1.3. Almacenamiento de plaguicidas.
 
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
+      .row.mb-5.justify-content-right
+        .col-6
+          a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+              p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
 
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .titulo-segundo
+      .h4 2.3 Aplicabilidad en la empresa
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
+    p.mb-4 La gestión ambiental es de suma importancia por los beneficios que brinda al medio ambiente y los sistemas productivos de las organizaciones, sus empleados y a las comunidades vecinas, ya que cubre varios aspectos de importancia que son imprescindibles para la sustentabilidad de la actividad en el corto, mediano y largo plazo en cuanto a la utilización de los recursos naturales.
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    p.mb-4 Con la gestión ambiental en el sector agrícola se busca:
+
+    .row.mb-5
+      .col-sm.mb-5.mb-sm-0
+        ul.lista-ul
+          li 
+            i.fas.fa-angle-right
+            |	Facilitar y agilizar la gestión de las autoridades ambientales y los agricultores.
+          li 
+            i.fas.fa-angle-right
+            |	Unificar criterios para la gestión ambiental del subsector.
+          li 
+            i.fas.fa-angle-right
+            |	Presentar en forma concisa y clara una descripción de los procesos involucrados en la actividad agrícola.
+          li 
+            i.fas.fa-angle-right
+            |	Presentar los aspectos relevantes de la planificación ambiental agrícola.
+          li 
+            i.fas.fa-angle-right
+            |	Presentar medidas típicas para manejar, prevenir, mitigar y corregir los impactos ambientales generados por la actividad.
+          li 
+            i.fas.fa-angle-right
+            |	Difundir y propiciar entre los productores el cumplimiento de la legislación ambiental.
+          li 
+            i.fas.fa-angle-right
+            |	Proponer al agricultor opciones tecnológicas de producción más “limpia” y uso racional del agua en el proceso del beneficio.
+      .col-sm.mb-5.mb-sm-0
+        ul.lista-ul
+          li
+            figure
+              img(src='@/assets/curso/tema2/img05.svg', alt='Sistemas de gestión de la seguridad y salud en el trabajo')
+
+    .titulo-segundo
+      .h4 2.4. Estándares mínimos ambientales según el tipo de empresa
     
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
+    p.mb-4 Para evitar el deterioro del medio ambiente causado por los diferentes impactos ambientales es necesario que la finca o unidad productiva formule un plan de gestión y conservación del medio ambiente, en el que se especifique el cuidado del componente hídrico, suelo y manejo adecuado de residuos y aguas residuales, complementario a este los generados en las diferentes actividades del proceso, a saber:
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
+     .row
+      .col-md-6.col-lg.mb-5
+        .tarjeta-Avatar
+          img(src='@/assets/curso/tema2/img06.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--gris.p-4
+            .h4.text-center a. Recurso hídrico:
+            .row.mb-5
+              .col-sm.mb-5.mb-sm-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    |	Identifique las fuentes de agua. 
+                  li 
+                    i.fas.fa-angle-right
+                    |	Aísle y proteja las fuentes de agua con cercas vivas (cultivos de especies adecuadas a la zona) a una distancia considerable, buscando impedir el acceso de personas y animales, así como la contaminación por aplicación de fertilizantes y plaguicidas.
+                  li 
+                    i.fas.fa-angle-right
+                    |	Realice un análisis de riesgos en el que identifique los posibles contaminantes microbiológicos, químicos y físicos del agua, para esto se recomienda realizar un monitoreo del agua para consumo y demás actividades por lo menos una vez al año, mediante un análisis en un laboratorio acreditado, con el fin de controlar o minimizar los diferentes riesgos asociados al uso del agua. 
+                  li 
+                    i.fas.fa-angle-right
+                    |	El resultado de los análisis debe quedar documentado y archivado para realizar acciones correctivas en caso de ser necesario. 
+                  li 
+                    i.fas.fa-angle-right
+                    |	Identifique el tipo de calidad de agua que requiere para cada actividad dentro de la unidad productiva.
+                  li 
+                    i.fas.fa-angle-right
+                    |	Para el uso, consumo humano y los procesos de postcosecha la finca o unidad productiva debe contar con agua potable. 
+                  li 
+                    i.fas.fa-angle-right
+                    |	Si cuenta con tanques para el almacenamiento de agua recuerde que deben ser aseados con frecuencia, deben permanecer cerrados y su capacidad debe ser suficiente para garantizar el abastecimiento permanente de todo el sistema productivo. 
+                  li 
+                    i.fas.fa-angle-right
+                    |	Debe calcular las necesidades del agua para el cultivo.
+                  li 
+                    i.fas.fa-angle-right
+                    |	Registre cada vez que se realice el riego: consumo de agua, lote que se riega, fecha y el tiempo de riego.
 
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+      .col-md-6.col-lg.mb-5
+        .tarjeta-Avatar
+          img(src='@/assets/curso/tema2/img07.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--gris.p-4
+            .h4.text-center b. Residuos sólidos:
+            .row.mb-5
+              .col-sm.mb-5.mb-sm-0
+                ul.lista-ul
+                  p Identifique los tipos de residuos que se generan en la finca o unidad productiva y registre en un documento; tenga en cuenta la siguiente clasificación:  
+                    li 
+                      i.lista-ul__vineta
+                      |	Residuos agrícolas orgánicos: son todos los residuos que se generan de las actividades agrícolas en la finca, tales como empaques de productos (costales, bolsas y envases plásticos), fibras de tutorado o amarres de plantas.  
+                    li 
+                      i.lista-ul__vineta
+                      |	Residuos orgánicos: son todos los residuos que se descomponen con facilidad en el medio ambiente (residuos de cocina, estiércol, etc.).  
+                    li 
+                      i.lista-ul__vineta
+                      |	Residuos forestales: son los residuos como ramas, corteza de árboles, hojas y residuos de podas.
+                    li 
+                      i.lista-ul__vineta
+                      |	Residuos peligrosos -  químicos: son los restos de sustancias de productos químicos fitosanitarios o agroquímicos utilizados en las labores agrícolas.
+                    li 
+                      ul
+                        li
+                          i.lista-ul__vineta
+                          |	Identifique la cantidad y el tipo de residuo, tipo de disposición final que se debe dar según normativa y manejo que se da en la finca, y no olvide realizar la documentación de este mediante el registro de la caracterización de los residuos sólidos en formatos de seguimiento. 
+                        li 
+                          i.lista-ul__vineta
+                          |	Establezca un sistema para la clasificación de residuos de acuerdo a su tipo (contenedores- puntos ecológicos entre otros en lugares visibles y de fácil acceso, los contenedores deben estar debidamente rotulados).
+                        li 
+                          i.lista-ul__vineta
+                          |	Determine el uso de los residuos orgánicos, en caso de ser convertidos en abono orgánico, determinar el proceso y los controles para evitar el riesgo de propagación de enfermedades y documentar dicho proceso mediante la formulación de un procedimiento. 
+                        li 
+                          i.lista-ul__vineta
+                          |	Defina las acciones de reciclaje de los residuos producidos. 
+                        li 
+                          i.lista-ul__vineta
+                          |	Determine las áreas designadas para el almacenamiento de los residuos.
 
 </template>
 
