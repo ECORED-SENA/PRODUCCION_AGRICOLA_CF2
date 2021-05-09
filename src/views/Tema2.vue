@@ -5,12 +5,12 @@
     
     .titulo-principal
       .titulo-principal__numero
-        .h3 1
+        .h3 2
       .h3 Gestión ambiental
 
     p.mb-4 Una de las premisas de la implementación de buenas prácticas agrícolas es la responsabilidad en cuanto a producción más limpia, conservación de suelos y protección del medio ambiente y mantenimiento de la biodiversidad; es así que la gestión ambiental ayuda a los productores a cumplir con dicha premisa.
 
-    .titulo-segundo
+    #t_2_1.titulo-segundo
       .h4 2.1 Concepto
     
     p.mb-4 El sistema de gestión ambiental es el proceso que está orientado a resolver, mitigar y prevenir los problemas de carácter ambiental, con el propósito de lograr un desarrollo sostenible.
@@ -45,7 +45,7 @@
 
     p.mb-5 La planificación debe estipular la incorporación de prácticas/tecnologías, con el fin de generar un proceso de mejora continua. El monitoreo a través de indicadores permite ver la evolución de los recursos naturales en función de los riesgos identificados inicialmente y otros nuevos que puedan surgir de la implementación de nuevas tecnologías. El desarrollo de tecnologías es dinámico, por lo que es necesario contar con un plan de capacitación. En la medida de lo posible se deben incorporar tecnologías que permitan reducir los impactos sobre el ambiente y las personas.
 
-    .titulo-segundo
+    #t_2_2.titulo-segundo
       .h4 2.2 Normatividad general
     
     p.mb-4 Debido a que las actividades agrícolas producen impactos sobre el suelo, agua, aire, flora, fauna y paisaje es necesario conocer la normatividad aplicable para poder realizar su debido manejo ambiental y de esta manera evitar alguna sanción posible.
@@ -107,7 +107,7 @@
               .anexo__texto
                 p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
 
-    .titulo-segundo
+    #t_2_3.titulo-segundo
       .h4 2.3 Aplicabilidad en la empresa
     
     p.mb-4 La gestión ambiental es de suma importancia por los beneficios que brinda al medio ambiente y los sistemas productivos de las organizaciones, sus empleados y a las comunidades vecinas, ya que cubre varios aspectos de importancia que son imprescindibles para la sustentabilidad de la actividad en el corto, mediano y largo plazo en cuanto a la utilización de los recursos naturales.
@@ -144,7 +144,7 @@
             figure
               img(src='@/assets/curso/tema2/img05.svg', alt='Sistemas de gestión de la seguridad y salud en el trabajo')
 
-    .titulo-segundo
+    #t_2_4.titulo-segundo
       .h4 2.4. Estándares mínimos ambientales según el tipo de empresa
     
     p.mb-4 Para evitar el deterioro del medio ambiente causado por los diferentes impactos ambientales es necesario que la finca o unidad productiva formule un plan de gestión y conservación del medio ambiente, en el que se especifique el cuidado del componente hídrico, suelo y manejo adecuado de residuos y aguas residuales, complementario a este los generados en las diferentes actividades del proceso, a saber:

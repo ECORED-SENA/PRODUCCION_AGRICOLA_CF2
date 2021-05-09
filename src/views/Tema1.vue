@@ -32,14 +32,14 @@
         figure
           img(src='@/assets/curso/tema1/img02.svg', alt='Sistemas de gestión de la seguridad y salud en el trabajo')
     
-    .titulo-segundo
+    #t_1_1.titulo-segundo
       .h4 1.1 Normatividad general
     
     p.mb-4 Dentro del marco normativo del Sistema de Gestión de Seguridad y Salud en el Trabajo se encuentran leyes, decretos y resoluciones que orientan en los diferentes procesos sobre la salud y el bienestar de los trabajadores, considerando que la responsabilidad de adoptar las medidas para garantizar la salud ocupacional de las personas trabajadoras en el lugar de trabajo corresponde a cada unidad productiva del sector agrícola.
 
     LineaTiempoB.mb-5(:datos="datosLineaTiempoB")
 
-    .titulo-segundo
+    #t_1_2.titulo-segundo
       .h4 1.2 Campo de aplicación
 
     .row.mb-4.justify-content-center
@@ -58,7 +58,7 @@
      
     p.mb-5 De acuerdo con las BPA la o las personas capacitadas en primeros auxilios (mínimo una, en la producción agrícola o finca) debe de permanecer en esta en el momento de llevar a cabo las labores para atender una posible emergencia. Además, en la implementación de BPA se encuentra la inocuidad de los productos como pilar fundamental, por ello es indispensable contar con la información básica sobre la higiene en la que se incluye: comer y beber en áreas designadas, mantener las manos limpias, usar los trajes o equipos de protección personal de acuerdo con la labor, y avisar cualquier problema de salud o infección que se pueda presentar. 
 
-    .titulo-segundo
+    #t_1_3.titulo-segundo
       .h4 1.3. Estándares mínimos según el tipo de empresa
     
     p.mb-4 Entre las ventajas que tiene el SG-SST es la de mejorar el ambiente de trabajo, el bienestar y la calidad de vida laboral, así como también la reducción de accidentalidad y mortalidad, ausentismo del puesto de trabajo debido a enfermedades que se puedan presentar en el momento de las labores y, cómo contribuir al aumento de la producción agrícola. También es importante tener en cuenta que el SG-SST es el encargado de velar por el cumplimiento de las normas, requisitos y procedimientos de las empresas y contratantes en riesgos laborales. 
@@ -102,7 +102,7 @@
           .anexo__texto
             p Para profundizar observe el video “Modificación estándares mínimos de SG-SST en Colombia”
 
-    .titulo-segundo
+    #t_1_4.titulo-segundo
       .h4 1.4. Peligros asociados a la producción agrícola
     
     p.mb-4 A partir de la definición de peligro “fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones” (Decreto 1072 de 2015, Art. 2.2.4.6.2), se relacionan algunos de los peligros en las labores de las unidades productivas o en la empresa agrícola:
@@ -182,7 +182,7 @@
             i.fas.fa-angle-right
             |	Intensidad en el ritmo de trabajo.
 
-    .titulo-segundo
+    #t_1_5.titulo-segundo
       .h4 1.5. Riesgos asociados a la producción agrícola
     
     p.mb-5 Buena parte del trabajo agrícola es, por naturaleza, físicamente exigente. El riesgo de accidentes aumenta con el cansancio, la utilización de herramientas poco ergonómicas, las dificultades del terreno, la exposición a condiciones climáticas extremas y la mala salud general que se asocia a trabajar y vivir en comunidades rurales remotas. Estos problemas se ven agravados por el hecho de que las condiciones de trabajo y de vida terminan solapándose.  En términos de fallecimientos, lesiones y problemas de salud relacionados con el trabajo, el sector agrícola es uno de los tres sectores de actividad más peligrosos junto con la construcción y la minería (OIT, 2015).
@@ -225,7 +225,7 @@
               .h4 Riesgo ergonómico
               p Son aquellos que se producen cuando el trabajador se encuentra en su lugar de trabajo y en este, se hacen movimientos, acciones o posturas que producen daño a la salud. Entre las labores se encuentran todas aquellas que corresponden al desarrollo del cultivo.
 
-    .titulo-segundo
+    #t_1_6.titulo-segundo
       .h4 1.6. Lesiones por accidentes de trabajo asociados a la producción agrícola
     
     p.mb-4 Cuando se habla de implementación de BPA en la empresa agrícola es frecuente que se produzcan accidentes laborales de trabajadores en las labores que desempeñan diariamente en las unidades productivas. A continuación, se listan algunas de las lesiones que se encuentran después de sufrir un accidente por las labores realizadas en la unidad productiva o empresa agrícola.
