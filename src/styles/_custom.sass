@@ -50,10 +50,28 @@ table
   background-color: $color-sistema-h !important
 
 .tarjeta--naranja 
-  background-color: #F7A416
+  background-color: lighten($color-acento-botones, 20%) !important
+  .lista-ul
+    li
+      i
+        color: $white
 
 .tarjeta--verde 
-  background-color: #95AF3D
+  background-color: lighten($color-primario, 15%) !important
+  .lista-ul
+    li
+      i
+        color: $white
+
+.tabs-b__tab--active
+  border-top: 5px solid $color-acento-botones !important
+
+.colorS
+  background-color: lighten($color-primario, 25%) !important
+  border-radius: 0px
+  &::before
+    background-color: lighten($color-acento-botones, 25%) !important
+
 //----------------
 
 .cajon--rojo

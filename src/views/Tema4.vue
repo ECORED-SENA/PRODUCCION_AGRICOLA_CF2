@@ -11,27 +11,33 @@
     p.mb-4 Los sistemas de gestión documental se están convirtiendo en un elemento clave para todo tipo de empresa, ya que un sistema de gestión documental asegura una información organizada y eficiente.
 
     .row.mb-4
-      .col-4
+      .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img01.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
-            p a. Un sistema de gestión documental o document management system (DMS), por sus siglas en inglés, está diseñado para almacenar, administrar y controlar el flujo de documentos dentro de una organización. Se trata de una forma de organizar los documentos e imágenes digitales en una localización centralizada a la que los empleados puedan acceder de forma fácil y sencilla.
+            p.mb-3
+              strong a. 
+              | Un sistema de gestión documental o document management system (DMS), por sus siglas en inglés, está diseñado para almacenar, administrar y controlar el flujo de documentos dentro de una organización. Se trata de una forma de organizar los documentos e imágenes digitales en una localización centralizada a la que los empleados puedan acceder de forma fácil y sencilla.
       
-      .col-4
+      .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img02.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
-            p b. Conjunto de procesos a realizar para administrar documentos y archivos dentro de una organización apoyados en un conjunto de normas técnicas y prácticas, lo que facilita manejar, almacenar, modificar, recuperar y archivar el tiempo que sea necesario la información contenida en los diferentes documentos creados para la implementación y desarrollo de un proceso.
+            p.mb-3
+              strong b. 
+              | Conjunto de procesos a realizar para administrar documentos y archivos dentro de una organización apoyados en un conjunto de normas técnicas y prácticas, lo que facilita manejar, almacenar, modificar, recuperar y archivar el tiempo que sea necesario la información contenida en los diferentes documentos creados para la implementación y desarrollo de un proceso.
 
-      .col-4
+      .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img03.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
-            p c.	Gestión documental. Conjunto de actividades administrativas y técnicas tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades, desde su origen hasta su destino final, con el objeto de facilitar su utilización y conservación.
+            p.mb-3
+              strong c. 
+              | Gestión documental. Conjunto de actividades administrativas y técnicas tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades, desde su origen hasta su destino final, con el objeto de facilitar su utilización y conservación.
 
     p.mb-4 Según el Archivo General de la Nación los procesos de gestión documental son:
 
-    TabsB.mb-5
+    TabsB.mb-2
       .py-4.py-md-5(titulo="Planeación" :icono="require('@/assets/curso/tema4/icon01.svg')")
         .row.mb-10.justify-content-center
           .col-10
@@ -42,7 +48,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
       
       .py-4.py-md-5(titulo="Producción" :icono="require('@/assets/curso/tema4/icon02.svg')")
         .row.mb-10.justify-content-center
@@ -54,7 +59,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
 
       .py-4.py-md-5(titulo="Gestión y trámite" :icono="require('@/assets/curso/tema4/icon03.svg')")
         .row.mb-10.justify-content-center
@@ -66,7 +70,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
 
       .py-4.py-md-5(titulo="Organización" :icono="require('@/assets/curso/tema4/icon04.svg')")
         .row.mb-10.justify-content-center
@@ -78,7 +81,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
 
       .py-4.py-md-5(titulo="Disposición de documentos" :icono="require('@/assets/curso/tema4/icon05.svg')")
         .row.mb-10.justify-content-center
@@ -90,7 +92,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
       
       .py-4.py-md-5(titulo="Preservación a largo plazo" :icono="require('@/assets/curso/tema4/icon06.svg')")
         .row.mb-10.justify-content-center
@@ -102,7 +103,6 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
       
       .py-4.py-md-5(titulo="Valoración" :icono="require('@/assets/curso/tema4/icon07.svg')")
         .row.mb-10.justify-content-center
@@ -114,12 +114,14 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
-            p Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°].
+
+    p.mb-5 Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°.
     
     #t_4_1.titulo-segundo
       .h4 4.1 Normatividad
     
-    p.mb-4 La Norma 
+    p.mb-4
+      | La Norma 
       strong ISO 9001:2015 
       | establece los requisitos mínimos para lograr implementar un sistema de gestión de la calidad y así de esta forma buscar la mejora continua en la empresa.
     
@@ -129,7 +131,7 @@
       .h4 4.2 Aplicabilidad en la empresa
     
     .row.mb-4
-      .col-7
+      .col-12.col-md-7
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -152,7 +154,7 @@
               img(src='@/assets/curso/tema4/img05.svg', alt='Texto que describa la imagen')
           
         .h3.text-left Tipos de planes y procedimientos requeridos para BPA.
-        p En el cumplimiento de los requisitos para los productos agrícolas y las producciones agrícolas al momento de la implementación de BPA se debe contar con planes y procedimientos que permitan estandarizar los procesos, para así asegurar un control práctico y eficiente, garantizando el avance a través de la mejora continua. A continuación, se relacionan los planes y procedimientos tenidos en cuenta para la implementación de BPA:
+        p.mb-4 En el cumplimiento de los requisitos para los productos agrícolas y las producciones agrícolas al momento de la implementación de BPA se debe contar con planes y procedimientos que permitan estandarizar los procesos, para así asegurar un control práctico y eficiente, garantizando el avance a través de la mejora continua. A continuación, se relacionan los planes y procedimientos tenidos en cuenta para la implementación de BPA:
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -193,7 +195,7 @@
               img(src='@/assets/curso/tema4/img06.svg', alt='Texto que describa la imagen')
           
         .h3.text-left Tipos de registros para BPA 
-        p Dentro de los Sistemas de Gestión de Calidad las BPA buscan el orden de la información sobre el manejo de la unidad productiva y, tener disponibles los soportes documentales para su proceso de implementación. A continuación, se mencionan algunos de los registros al momento de realizar este proceso:
+        p.mb-4 Dentro de los Sistemas de Gestión de Calidad las BPA buscan el orden de la información sobre el manejo de la unidad productiva y, tener disponibles los soportes documentales para su proceso de implementación. A continuación, se mencionan algunos de los registros al momento de realizar este proceso:
         ul.lista-ul
           li
             i.fas.fa-angle-right
@@ -229,6 +231,8 @@
             i.fas.fa-angle-right
             |	Solicitud de auditoría en buenas prácticas agrícolas.
     
+    hr.mb-5
+    
     #t_4_3.titulo-segundo
       .h4 4.3 Técnicas de diligenciamiento
     
@@ -250,7 +254,7 @@
   
       .col-3
         figure
-          img(src='@/assets/curso/tema4/img07.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/tema4/img07.svg', alt='Técnicas de diligenciamiento')
     
     .row.justify-content-center.mb-4
       .col-8
@@ -261,12 +265,12 @@
     p.mb-4 Lo esencial de cualquier documento es su contenido y la claridad con que se expone, pero la manera de presentarlo también influirá en la facilidad con que se pueda leer. Una adecuada disposición gráfica del documento ayudará a que el lector capte a primera vista la información importante, la organización interna, sus diferentes divisiones antropomórficas: encabezamiento, cuerpo y pie. Examine los criterios generales que debe aplicar en cada una de ellas.
 
     TabsB.mb-5
-      .py-4.py-md-5(titulo="ENCABEZADO" :icono="require('@/assets/curso/tema4/icon08.svg')")
+      .py-4.py-md-5(titulo="Encabezado" :icono="require('@/assets/curso/tema4/icon08.svg')")
         .row.mb-10.justify-content-center
           .col-10
             .row
               .col-md-8.mb-4.mb-md-0
-                .h4 ENCABEZADO
+                .h4 encabezado
                 p En la parte superior del documento se debe reservar este espacio para la información inmediata, básica y sintética de los elementos fundamentales del documento como la identificación corporativa del emisor, la información sintética del documento y la identificación del destinatario.
                 p.mb-4 Las partes en que se divide el encabezado son:
                 p.mb-4
@@ -289,43 +293,43 @@
                 figure
                   img(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="CUERPO" :icono="require('@/assets/curso/tema4/icon08.svg')")
+      .py-4.py-md-5(titulo="Cuerpo" :icono="require('@/assets/curso/tema4/icon08.svg')")
         .row.mb-10.justify-content-center
           .col-10
             .row
               .col-md-8.mb-4.mb-md-0
-                .h4 CUERPO
+                .h4 Cuerpo
                 p Es la parte reservada al contenido específico de cada documento. Como su extensión varía según la mayor o menor complejidad del mensaje que se transmite o del tipo de texto, el contenido se redactará con claridad, sencillez y precisión.
               .col-md-4
                 figure
-                  img(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="PIE" :icono="require('@/assets/curso/tema4/icon08.svg')")
+      .py-4.py-md-5(titulo="Pie" :icono="require('@/assets/curso/tema4/icon08.svg')")
         .row.mb-10.justify-content-center
           .col-10
             .row
               .col-md-8.mb-4.mb-md-0
-                .h4 PIE
+                .h4 Pie
                 p El final del documento es el espacio reservado a la identificación oficial y personal del emisor (firma) y a las circunstancias de tiempo y lugar, si no se han expresado en el encabezado (data).
               .col-md-4
                 figure
-                  img(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
 
     #t_4_4.titulo-segundo
       .h4 4.4. Archivo      
 
     p.mb-4 A continuación, se destacan algunos conceptos referidos al archivo:  
 
-    .row.mb-4
-      .col-8
-        .bloque-texto-a.p-md-5.tarjeta.tarjeta--naranja.p-5
+    .row.mb-5.justify-content-center
+      .col-12.col-md-8.mb-4.mb-md-0
+        .bloque-texto-a.p-md-5.tarjeta.tarjeta--naranja.colorS.p-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
-              .h4.mb-0 Según el Reglamento General de Archivos establecido por el Archivo General de la Nación:
-            .col-lg-7.tarjeta
+              .h5.mb-0 Según el Reglamento General de Archivos establecido por el Archivo General de la Nación:
+            .col-lg-8.tarjeta
               .bloque-texto-a__texto.p-4
                 p “Archivo es uno o más conjuntos de documentos, sea cual sea su fecha, su forma y soporte material, acumulados en un proceso natural por una persona o institución pública o privada en el transcurso de su gestión, conservados respetando aquel orden para servir como testimonio o información para la persona o institución que los produce, para los ciudadanos o para servir de fuente de historia”.
-      .col-4
+      .col-8.col-md-4
         figure
           img(src='@/assets/curso/tema4/img09.svg', alt='Texto que describa la imagen')
 
@@ -333,21 +337,8 @@
 
     p.mb-4 Verificar la documentación implica identificar la procedencia de los documentos, teniendo en cuenta la estructura orgánica y las funciones desarrolladas por una institución, empresa, proceso a lo largo de su gestión.
 
-    .row.mb-4
-      .col-8
-        figure
-          img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
-
-      .col-4
-        br
-        p.mb-5 Indetificación del orígen del documento (encabezado)
-        br
-        p - Escritura clara
-        p - Fecha - lugar
-        p - Temática
-        p - Identificación del emisor
-        p - Contenido informativo completo
-        p - Firma de validación
+    figure
+      img(src='@/assets/curso/tema4/img10.svg', alt='Texto que describa la imagen')
 
 </template>
 

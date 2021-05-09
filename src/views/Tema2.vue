@@ -96,18 +96,29 @@
               p.mb-4 Capítulo 3. Del manejo integral de plaguicidas - Artículo   2.2.7.3.1.2. Consumo de plaguicidas.
 
               p Artículo   2.2.7.3.1.3. Almacenamiento de plaguicidas.
+    
+    .row.mb-5.justify-content-center
+      .col-10.col-md-6
+        a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
+    
+    .tarjeta.tarjeta--morada.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/info.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0.text-dark Infografía - Normatividad general
+            .col-sm-auto
+              a.boton.boton--a(:href="obtenerLink('/downloads/Infografia.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
-    .row.mb-5
-      .col-12.col-md-10
-        .row.mb-5.justify-content-end
-          .col-8
-            a.anexo.mb-4.mb-lg-0(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
-
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo.pt-4
       .h4 2.3 Aplicabilidad en la empresa
     
     p.mb-4 La gestión ambiental es de suma importancia por los beneficios que brinda al medio ambiente y los sistemas productivos de las organizaciones, sus empleados y a las comunidades vecinas, ya que cubre varios aspectos de importancia que son imprescindibles para la sustentabilidad de la actividad en el corto, mediano y largo plazo en cuanto a la utilización de los recursos naturales.
@@ -208,19 +219,19 @@
             li 
               ul
                 li
-                  i.lista-ul__vineta
+                  i.fas.fa-check
                   |	Identifique la cantidad y el tipo de residuo, tipo de disposición final que se debe dar según normativa y manejo que se da en la finca, y no olvide realizar la documentación de este mediante el registro de la caracterización de los residuos sólidos en formatos de seguimiento. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-check
                   |	Establezca un sistema para la clasificación de residuos de acuerdo a su tipo (contenedores- puntos ecológicos entre otros en lugares visibles y de fácil acceso, los contenedores deben estar debidamente rotulados).
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-check
                   |	Determine el uso de los residuos orgánicos, en caso de ser convertidos en abono orgánico, determinar el proceso y los controles para evitar el riesgo de propagación de enfermedades y documentar dicho proceso mediante la formulación de un procedimiento. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-check
                   |	Defina las acciones de reciclaje de los residuos producidos. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-check
                   |	Determine las áreas designadas para el almacenamiento de los residuos.
         .col-4
           figure

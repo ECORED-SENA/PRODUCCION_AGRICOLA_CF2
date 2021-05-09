@@ -208,54 +208,46 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura',
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
+        nombre: 'Tania Yaneth Ramírez Benítez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Tolima',
       },
       {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
+        nombre: 'Claudia Patricia Sánchez Peñaranda',
+        cargo: 'Instructora',
+        centro: 'AgroSENA',
+      },
+      {
+        nombre: 'Fredy Orlando Ibáñez Morales',
+        cargo: 'Instructor',
+        centro: 'Agroambiental',
+      },
+      {
+        nombre: 'Yanet Bolaños Botina',
+        cargo: 'Instructora',
+        centro: 'Agroambiental',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'María Isabel Román Rueda',
+        cargo: 'Revisora de estilo',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura',
+        regional: 'Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -268,11 +260,11 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+        nombre: ['Oscar Julian Marquez Sanabria', 'persona prod audiovisual'],
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo Front-End',
       },
       {
@@ -282,8 +274,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación de recursos',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -292,124 +284,119 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Camisón, C., Cruz, S. & González, T. (2006). Gestión de la Calidad: conceptos, enfoques, modelos y sistemas. Pearson Educación.',
+    },
+    {
+      referencia:
+        'Decreto 1072 de 2015. [Presidencia de la República de Colombia]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Decreto 1713 de 2002.  [Presidencia de la República de Colombia]. Por el cual se reglamenta la Ley 142 de 1994, la Ley 632 de 2000 y la Ley 689 de 2001, en relación con la prestación del servicio público de aseo, y el Decreto Ley 2811 de 1974 y la Ley 99 de 1993 en relación con la Gestión Integral de Residuos Sólidos. Agosto 06 de 2002.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5542',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Dinamia. Consultoría Social. (2010). Guía sobre la economía social y solidaria. [Ed.]. Confederación Sindical de Comisiones Obreras.',
+      link: 'https://www.ccoo.es/7b87c937a2a31bec210192511b97d5f2000001.pdf',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ley 594 de 2000. Por medio de la cual se dicta la Ley General de Archivos y se dictan otras disposiciones. Julio 14 de 2000. DO. N° 44.093',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275#:~:text=El%20Archivo%20General%20de%20la%20Naci%C3%B3n%20establecer%C3%A1%20los%20requisitos%20y,o%20administraci%C3%B3n%20de%20archivos%20hist%C3%B3ricos.',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ley 1562 de 2012. Por la cual se modifica el sistema de riesgos laborales y se dictan otras disposiciones en materia de salud ocupacional. Julio 11 de 2012.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/Ley-1562-de-2012.pdf',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Ministerio de Agricultura y Desarrollo Rural - ASOHOFRUCOL. (2015). Guía básica para la implementación de Buenas Prácticas Agrícolas. Convenio 20150937 Ministerio de Agricultura y Desarrollo Rural - ASOHOFRUCOL. ZoE.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'http://www.asohofrucol.com.co/archivos/Libros/Gu%C3%ADa_B%C3%A1sica_Para_la_Implementaci%C3%B3n_de_Buenas_Pr%C3%A1cticas_Agr%C3%ADcolas_2015.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ministerio del Trabajo. Guía técnica de implementación para MIPYMES. Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST). Oficina de Comunicaciones Ministerio del Trabajo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.mintrabajo.gov.co/documents/20147/51963/Guia+tecnica+de+implementacion+del+SG+SST+para+Mipymes.pdf/e1acb62b-8a54-0da7-0f24-8f7e6169c178',
+    },
+    {
+      referencia:
+        'Resolución 0312 de 2019. [Ministerio del Trabajo]. Por el cual se definen los Estándares Mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST. Febrero 13 de 2019.',
+      link:
+        'https://id.presidencia.gov.co/Documents/190219_Resolucion0312EstandaresMinimosSeguridadSalud.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Amenaza',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'peligro latente de que un evento físico de origen natural, o causado, o inducido por la acción humana de manera accidental se presente con una severidad suficiente para causar pérdida de vidas, lesiones u otros impactos en la salud, así como también daños y pérdidas en los bienes, la infraestructura, los medios de sustento, la prestación de servicios y los recursos ambientales (Decreto 1072 de 2015, Art. 2.2.4.6.2). ',
     },
     {
-      termino: 'Suftware',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Documento',
+      significado: 'Información y su medio de soporte.',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Documento obsoleto',
+      significado: 'Documento que ha perdido su vigencia en fecha o contenido.',
     },
     {
-      termino: 'Vectores',
+      termino: 'Indicadores de proceso',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Medidas verificables del grado de desarrollo e implementación del SG-SST (Decreto 1072 de 2015, Art. 2.2.4.6.2).',
     },
     {
-      termino: 'Moda',
+      termino: 'Listado maestro de documentos',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Relación de documentos internos y externos del Sistema Integrado de Gestión de Calidad, los cuales se encuentran asociados a los procesos que hacen parte de la empresa.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Peligro',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones (Decreto 1072 de 2015, Art. 2.2.4.6.2).',
     },
     {
-      termino: 'Tipología',
+      termino: 'Riesgo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Software',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Combinación de la probabilidad de que ocurra una o más exposiciones o eventos peligrosos y la severidad del daño que puede ser causada por estos (Decreto 1072 de 2015, Art. 2.2.4.6.2).',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Decreto 1076 de 2015. [Presidencia de la República de Colombia]. Reglamentario del Sector Ambiente y Desarrollo Sostenible. Mayo 26 de 2015.',
+      tipo: 'Página web',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+        'Decreto 2609 de 2012. [Presidencia de la República de Colombia]. Por el cual se reglamenta el Título V de la Ley 594 de 2000, parcialmente los artículos 58 y 59 de la Ley 1437 de 2011 y se dictan otras disposiciones en materia de Gestión Documental para todas las Entidades del Estado. Diciembre 14 de 2012.',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        '/https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'Ley 594 de 2000. Por medio de la cual se dicta la Ley General de Archivos y se dictan otras disposiciones. Julio 14 de 2000. DO. N° 44.093   ',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4275#:~:text=El%20Archivo%20General%20de%20la%20Naci%C3%B3n%20establecer%C3%A1%20los%20requisitos%20y,o%20administraci%C3%B3n%20de%20archivos%20hist%C3%B3ricos.',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Ministerio de Agricultura y Desarrollo Rural. (2006. Gestión ambiental en el sector agropecuario.',
+      tipo: 'Cartilla',
+      link:
+        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/12877/44059_56135.pdf?sequence=1&isAllowed=y',
     },
   ],
 }
