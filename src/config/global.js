@@ -135,32 +135,26 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Concepto',
+            titulo: 'Normatividad',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Normatividad',
+            titulo: 'Aplicabilidad en la empresa',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Aplicabilidad en la empresa',
+            titulo: 'Técnicas de diligenciamiento',
             hash: 't_4_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Técnicas de diligenciamiento',
-            hash: 't_4_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.5',
             titulo: 'Archivo',
-            hash: 't_4_5',
+            hash: 't_4_4',
           },
         ],
       },
@@ -208,14 +202,14 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
       {
         nombre: 'Tania Yaneth Ramírez Benítez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Claudia Patricia Sánchez Peñaranda',
@@ -243,12 +237,6 @@ export default {
         centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
-      {
-        nombre: 'María Isabel Román Rueda',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro Industrial Del Diseño Y La Manufactura',
-        regional: 'Regional Santander',
-      },
     ],
     desarrolloProducto: [
       {
@@ -260,12 +248,28 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: ['Oscar Julian Marquez Sanabria', 'persona prod audiovisual'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        nombre: [
+          'Angela Maldonado Jaime',
+          'Camilo Villamizar',
+          'Carolina Tamayo',
+          'John Archiniegas',
+          'Junior Rodriguez',
+          'Laura Murcia Pardo',
+          'Lina Marcela Perez',
+          'Oscar Julian Marquez Sanabria',
+          'Ricardo Vasquez Arroyave',
+          'Wilson Andrés Arenales',
+          'Zuleidy Maria Ruiz Torres',
+        ],
+        cargo: 'Diseño web y Producción audiovisual',
       },
       {
         nombre: 'Diego Fernando Velasco Güiza',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
+        cargo: 'Revisora de estilo',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -275,8 +279,8 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación de recursos',
-        centro: 'Centro de comercio y servicios',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -382,7 +386,7 @@ export default {
         'Decreto 2609 de 2012. [Presidencia de la República de Colombia]. Por el cual se reglamenta el Título V de la Ley 594 de 2000, parcialmente los artículos 58 y 59 de la Ley 1437 de 2011 y se dictan otras disposiciones en materia de Gestión Documental para todas las Entidades del Estado. Diciembre 14 de 2012.',
       tipo: 'Página web',
       link:
-        '/https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=50958',
     },
     {
       texto:
@@ -395,8 +399,7 @@ export default {
       texto:
         'Ministerio de Agricultura y Desarrollo Rural. (2006. Gestión ambiental en el sector agropecuario.',
       tipo: 'Cartilla',
-      link:
-        'https://repository.agrosavia.co/bitstream/handle/20.500.12324/12877/44059_56135.pdf?sequence=1&isAllowed=y',
+      descarga: '/downloads/Gestion_ambiental_sector_agropecuario.pdf',
     },
   ],
 }

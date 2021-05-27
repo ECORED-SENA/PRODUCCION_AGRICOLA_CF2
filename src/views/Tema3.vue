@@ -10,8 +10,8 @@
 
     figure.mb-4
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cX8tdwz0hXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Gestión de la calidad
     
     p.mb-5 En este apartado se presenta el concepto del sistema de gestión de calidad, la normatividad general que lo enmarca y las recomendaciones para su aplicación en la empresa.
 
@@ -20,7 +20,7 @@
     
     p.mb-4 La adopción de un sistema de gestión de la calidad es una decisión estratégica para una organización que le puede ayudar a mejorar su desempeño global y proporcionar una base sólida para las iniciativas de desarrollo sostenible (NTC-ISO 9001). 
 
-    p.mb-5 Un Sistema de Gestión es el modo en el que una empresa u organización ordena sus procesos para intentar conseguir la satisfacción del cliente. Implementar un Sistema de Gestión de la Calidad es una estrategia de mercado muy beneficiosa, inicialmente podemos realizar una medición de los resultados, comunicación asertiva entre las diferentes áreas de la empresa y una mejora continua entre otros. (ISO 9001:2015, 2018).
+    p.mb-5 Un Sistema de Gestión es el modo en el que una empresa u organización ordena sus procesos para intentar conseguir la satisfacción del cliente. Implementar un Sistema de Gestión de la Calidad es una estrategia de mercado muy beneficiosa, inicialmente podemos realizar una medición de los resultados, comunicación asertiva entre las diferentes áreas de la empresa y una mejora continua entre otros (ISO 9001:2015, 2018).
 
     hr
 
@@ -32,11 +32,11 @@
         .row
           .col-8
             p.mb-4 La norma ISO 9001:2015 establece los requisitos mínimos para lograr implementar un Sistema de Gestión de la Calidad y así de esta forma buscar la mejora continua en la empresa. Lo invitamos a revisarla y profundizar en la misma. 
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Norma_ISO_9001-2015.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
+                p Anexo. 1_Norma ISO 9001:2015 Sistema de Gestión de la Calidad.
           .col-3
             figure
               img(src='@/assets/curso/tema3/img01.svg', alt='Normatividad general ')
@@ -48,13 +48,15 @@
 
     p.mb-4 La implementación de un Sistema de Gestión de la Calidad permite la competitividad en el mercado, lograr la distinción entre las demás empresas del mercado y lograr un valor agregado en sus productos. 
 
-    p.mb-4 Para establecer un sistema de calidad de buenas prácticas agrícolas es necesario que la finca o unidad productiva cuente con un Manual como principal documento para la consolidación y mantenimiento de los procedimientos, formatos y registros a llevar a cabo en la implantación de las actividades que hacen parte de buenas prácticas agrícolas.
+    p.mb-4 Para establecer un sistema de calidad de buenas prácticas agrícolas es necesario que la finca o unidad productiva cuente con un manual como principal documento para la consolidación y mantenimiento de los procedimientos, formatos y registros a llevar a cabo en la implantación de las actividades que hacen parte de buenas prácticas agrícolas.
 
-    p.mb-4 En la elaboración de Manual de Calidad de Buenas Práctica Agrícola de la unidad productiva o finca tenga en cuenta:
+    p.mb-4 En la elaboración del Manual de Calidad de Buenas Prácticas Agrícolas de la unidad productiva o finca tenga en cuenta:
 
     p.mb-4
       strong A. ESTRUCTURA DE LA DOCUMENTACIÓN: 
       | la documentación del Sistema de Gestión se debe encontrar disponible para la consulta de todos los funcionarios.
+
+    p.mb-4 Como mecanismo administrativo de la documentación del sistema se debe contar con el procedimiento de control de documentos, que permita verificar la fecha de actualización, modificación o registro de un documento. 
 
     p.mb-4
       strong B. DOCUMENTOS: 
@@ -97,7 +99,7 @@
           div(titulo="La documentación y sus cambios debe ser revisada y aprobada")
             p La documentación y sus cambios debe ser revisada y aprobada por el “responsable del Sistema de Gestión de Calidad” quien debe actualizar el listado maestro de documentos del Sistema de Gestión de Calidad.  Todos los documentos se identifican con un código, número de actualización y fecha de emisión/revisión y, sus páginas se numeran adecuadamente.
 
-          div(titulo="copia de toda la documentación")
+          div(titulo="Copia de toda la documentación")
             p Existe una copia de toda la documentación en el lugar destinado al control de documentos.
 
           div(titulo="Responsable del Sistema de Gestión de Calidad")

@@ -12,8 +12,15 @@
 
     #t_2_1.titulo-segundo
       .h4 2.1 Concepto
+
+    figure.mb-4
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/RECeAyA510o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Concepto - Gestión ambiental
     
-    p.mb-4 El sistema de gestión ambiental es el proceso que está orientado a resolver, mitigar y prevenir los problemas de carácter ambiental, con el propósito de lograr un desarrollo sostenible.
+    p.mb-4 
+      strong El sistema de gestión ambiental 
+      | es el proceso que está orientado a resolver, mitigar y prevenir los problemas de carácter ambiental, con el propósito de lograr un desarrollo sostenible.
 
     p.mb-4 Los sistemas productivos pueden generar impactos ambientales que no necesariamente se manifiestan dentro de los límites físicos del mismo. Por ello, es necesario identificar los riesgos ambientales asociados a la producción de cultivos intra/extra establecimiento y, las prácticas y tecnologías que los minimicen.
 
@@ -50,31 +57,32 @@
     
     p.mb-4 Debido a que las actividades agrícolas producen impactos sobre el suelo, agua, aire, flora, fauna y paisaje es necesario conocer la normatividad aplicable para poder realizar su debido manejo ambiental y de esta manera evitar alguna sanción posible.
 
-    p.mb-5 Para identificar la normatividad aplicable a las actividades agrícolas es necesario realizar inicialmente un diagnóstico de estado y uso que se le dará a los diferentes componentes ambientales que hacen parte de la finca o unidad productiva agrícola; la normatividad general que se debe tener en cuenta es:
+    p.mb-5 Para identificar la normatividad aplicable a las actividades agrícolas es necesario realizar inicialmente un diagnóstico de estado y uso que se le dará a los diferentes componentes ambientales que hacen parte de la finca o unidad productiva agrícola; la normatividad general que se debe tener en cuenta es:    
 
     .col-lg-10.mb-4
       .cajon--rojo.p-4
-        .h5   Norma ISO 14001:
-        p esta norma de Sistemas de Gestión Ambiental (SGA) consigue que las empresas puedan demostrar que son responsables y están comprometidas con la protección del medio ambiente.
+        .h5   Norma ISO 14001
+        p Esta norma de Sistemas de Gestión Ambiental (SGA) consigue que las empresas puedan demostrar que son responsables y están comprometidas con la protección del medio ambiente.
 
     .col-lg-10.mb-5
       .cajon--azul.p-4
         .h5 Decreto 1713 de 2015 
         p Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible: en este decreto se realiza la compilación de reglamentaciones preexistentes en materia ambiental, los considerados de los decretos fuentes se entienden incorporados a su texto, aunque no se transcriba, para lo cual en cada artículo indica el origen del mismo.
+        a.fw-bold(href='https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153' target="_blank") https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=78153
 
     .row.justify-content
       .col-lg-10
         .tarjeta-Avatar-b.mb-4
             img.minWC(src='@/assets/curso/tema2/img01.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Parte 2. Reglamentaciones -Título 2- Biodiversidad:
+              .h4 Parte 2. Reglamentaciones - Título 2 - Biodiversidad:
               p Capítulo 1. Flora silvestre -Sección 18- Conservación de los recursos naturales en predios rurales.
 
       .col-lg-10
         .tarjeta-Avatar-b.mb-4
             img.minWC(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Título 3- Aguas no marítimas:
+              .h4 Título 3 - Aguas no marítimas:
               p.mb-4 Capítulo 2. Uso y aprovechamiento del agua - Sección 1- Sección 5 a 7 - Sección 22.
 
               p Capítulo 3. Ordenamiento del recurso hídrico y vertimientos - Sección 4 - Artículo   2.2.3.3.4.19. Control de contaminación por agroquímicos.  - Sección 9 - Artículo   2.2.3.3.9.5. TRANSITORIO. Criterios de calidad para uso agrícola.
@@ -103,7 +111,9 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
+            p 
+              strong Para el conocimiento de los ítem que se deben analizar en diagnóstico es necesario consultar: 
+              | Decreto 1076 de 2015 Sector Ambiente y Desarrollo Sostenible
     
     .tarjeta.tarjeta--morada.p-3.mb-5
       .row.justify-content-around.align-items-center
@@ -114,7 +124,7 @@
             .col.mb-3.mb-sm-0
               .h5.mb-0.text-dark Infografía - Normatividad general
             .col-sm-auto
-              a.boton.boton--a(:href="obtenerLink('/downloads/Infografia.pdf')" target="_blank")
+              a.boton.boton--a(:href="obtenerLink('/downloads/Aplicabilidad-en-la-empresa.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -156,7 +166,7 @@
               img(src='@/assets/curso/tema2/img05.svg', alt='Sistemas de gestión de la seguridad y salud en el trabajo')
 
     #t_2_4.titulo-segundo
-      .h4 2.4. Estándares mínimos ambientales según el tipo de empresa
+      .h4 2.4 Estándares mínimos ambientales según el tipo de empresa
     
     p.mb-4 Para evitar el deterioro del medio ambiente causado por los diferentes impactos ambientales es necesario que la finca o unidad productiva formule un plan de gestión y conservación del medio ambiente, en el que se especifique el cuidado del componente hídrico, suelo y manejo adecuado de residuos y aguas residuales, complementario a este los generados en las diferentes actividades del proceso, a saber:
     
@@ -202,20 +212,28 @@
       p.mb-4 Identifique los tipos de residuos que se generan en la finca o unidad productiva y registre en un documento; tenga en cuenta la siguiente clasificación:
 
       .row
-        .col-8           
+        .col-10    
           ul.lista-ul 
             li 
               i.fas.fa-angle-right
-              |	Residuos agrícolas orgánicos: son todos los residuos que se generan de las actividades agrícolas en la finca, tales como empaques de productos (costales, bolsas y envases plásticos), fibras de tutorado o amarres de plantas.  
+              p
+                strong Residuos agrícolas orgánicos: 
+                | son todos los residuos que se generan de las actividades agrícolas en la finca, tales como empaques de productos (costales, bolsas y envases plásticos), fibras de tutorado o amarres de plantas.  
             li 
               i.fas.fa-angle-right
-              |	Residuos orgánicos: son todos los residuos que se descomponen con facilidad en el medio ambiente (residuos de cocina, estiércol, etc.).  
+              p
+                strong Residuos orgánicos: 
+                | son todos los residuos que se descomponen con facilidad en el medio ambiente (residuos de cocina, estiércol, etc.).  
             li 
               i.fas.fa-angle-right
-              |	Residuos forestales: son los residuos como ramas, corteza de árboles, hojas y residuos de podas.
+              p
+                strong Residuos forestales: 
+                | son los residuos como ramas, corteza de árboles, hojas y residuos de podas.
             li 
               i.fas.fa-angle-right
-              |	Residuos peligrosos -  químicos: son los restos de sustancias de productos químicos fitosanitarios o agroquímicos utilizados en las labores agrícolas.
+              p
+                strong Residuos peligrosos - químicos: 
+                | son los restos de sustancias de productos químicos fitosanitarios o agroquímicos utilizados en las labores agrícolas.
             li 
               ul
                 li
@@ -233,7 +251,7 @@
                 li 
                   i.fas.fa-check
                   |	Determine las áreas designadas para el almacenamiento de los residuos.
-        .col-4
+        .col-2
           figure
             img.w-75.mx-auto(src='@/assets/curso/tema2/img07.svg', alt='Residuos sólidos')                
 

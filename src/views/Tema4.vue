@@ -14,24 +14,24 @@
       .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img01.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.p-4
-            p.mb-3
+          .tarjeta.tarjeta--azul.p-4.bgOtro
+            p
               strong a. 
               | Un sistema de gestión documental o document management system (DMS), por sus siglas en inglés, está diseñado para almacenar, administrar y controlar el flujo de documentos dentro de una organización. Se trata de una forma de organizar los documentos e imágenes digitales en una localización centralizada a la que los empleados puedan acceder de forma fácil y sencilla.
       
       .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img02.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.p-4
-            p.mb-3
+          .tarjeta.tarjeta--azul.p-4.bgOtro
+            p
               strong b. 
               | Conjunto de procesos a realizar para administrar documentos y archivos dentro de una organización apoyados en un conjunto de normas técnicas y prácticas, lo que facilita manejar, almacenar, modificar, recuperar y archivar el tiempo que sea necesario la información contenida en los diferentes documentos creados para la implementación y desarrollo de un proceso.
 
       .col-4.d-flex
         .tarjeta-Avatar
           img.minWC(src='@/assets/curso/tema4/img03.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul.p-4
-            p.mb-3
+          .tarjeta.tarjeta--azul.p-4.bgOtro
+            p
               strong c. 
               | Gestión documental. Conjunto de actividades administrativas y técnicas tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades, desde su origen hasta su destino final, con el objeto de facilitar su utilización y conservación.
 
@@ -115,7 +115,9 @@
                 figure
                   img(src='@/assets/curso/tema4/img04.svg', alt='Texto que describa la imagen')
 
-    p.mb-5 Fuente: República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°.
+    p.mb-5 
+      strong Fuente: 
+      | República de Colombia. Decreto 2609 del 14 de diciembre de 2012 (Reglamenta el Título V de la Ley 594 de 2000), Artículo 9°.
     
     #t_4_1.titulo-segundo
       .h4 4.1 Normatividad
@@ -153,7 +155,7 @@
             figure
               img(src='@/assets/curso/tema4/img05.svg', alt='Texto que describa la imagen')
           
-        .h3.text-left Tipos de planes y procedimientos requeridos para BPA.
+        .h4.text-left Tipos de planes y procedimientos requeridos para BPA
         p.mb-4 En el cumplimiento de los requisitos para los productos agrícolas y las producciones agrícolas al momento de la implementación de BPA se debe contar con planes y procedimientos que permitan estandarizar los procesos, para así asegurar un control práctico y eficiente, garantizando el avance a través de la mejora continua. A continuación, se relacionan los planes y procedimientos tenidos en cuenta para la implementación de BPA:
         ul.lista-ul
           li
@@ -194,7 +196,7 @@
             figure
               img(src='@/assets/curso/tema4/img06.svg', alt='Texto que describa la imagen')
           
-        .h3.text-left Tipos de registros para BPA 
+        .h4.text-left Tipos de registros para BPA 
         p.mb-4 Dentro de los Sistemas de Gestión de Calidad las BPA buscan el orden de la información sobre el manejo de la unidad productiva y, tener disponibles los soportes documentales para su proceso de implementación. A continuación, se mencionan algunos de los registros al momento de realizar este proceso:
         ul.lista-ul
           li
@@ -270,8 +272,8 @@
           .col-10
             .row
               .col-md-8.mb-4.mb-md-0
-                .h4 encabezado
-                p En la parte superior del documento se debe reservar este espacio para la información inmediata, básica y sintética de los elementos fundamentales del documento como la identificación corporativa del emisor, la información sintética del documento y la identificación del destinatario.
+                .h4 Encabezado
+                p.mb-4 En la parte superior del documento se debe reservar este espacio para la información inmediata, básica y sintética de los elementos fundamentales del documento como la identificación corporativa del emisor, la información sintética del documento y la identificación del destinatario.
                 p.mb-4 Las partes en que se divide el encabezado son:
                 p.mb-4
                   strong 1. Cabecera: 
@@ -280,14 +282,14 @@
                   strong 2. Título: 
                   | El título expresa con claridad y precisión el tipo de documento, su contenido esencial y en su caso, el procedimiento en que se inserta. Se situará en un sitio visible y fácilmente identificable.
                 p.mb-4
-                  strong 3. Datos: 
+                  strong 3. Datos generales del documento: 
                   | generales del documento. Este apartado contendrá la información más significativa para la identificación inmediata del documento y para la gestión administrativa.
                 ul.lista-ul.mb-3
                   li 
-                    i.lista-ul__vineta
+                    i.lista-ul__vineta.CBlack
                     | Número o clave asignado en cada dependencia para la identificación del documento.
                   li 
-                    i.lista-ul__vineta
+                    i.lista-ul__vineta.CBlack
                     | Fecha de inicio del procedimiento.
               .col-md-4
                 figure
@@ -316,9 +318,19 @@
                   img(src='@/assets/curso/tema4/img12.svg', alt='Texto que describa la imagen')
 
     #t_4_4.titulo-segundo
-      .h4 4.4. Archivo      
+      .h4 4.4 Archivo      
 
-    p.mb-4 A continuación, se destacan algunos conceptos referidos al archivo:  
+    p.mb-4 A continuación, se destacan algunos conceptos referidos al archivo: 
+    
+    p.mb-4 
+      strong Archivo: 
+      | conjunto de documentos, sea cual fuere su fecha, forma y soporte material, acumulados en un proceso natural por una persona o entidad pública o privada en el transcurso de su gestión, conservados respetando aquel orden para servir como testimonio e información a la persona o institución que los produce y a los ciudadanos, o como fuentes de la historia. También se puede entender como la institución que está al servicio de la gestión administrativa, la información, la investigación y la cultura. 
+      a.fw-bold(href='https://www.mintic.gov.co/portal/604/articles-15049_documento.pdf' target="_blank") https://www.mintic.gov.co/portal/604/articles-15049_documento.pdf.
+      
+      p.mb-4 
+        strong Archivar: 
+        | es el arte de conservar en orden debidamente agrupado y protegido los documentos pertenecientes a un individuo, firma, asunto o zona geográfica.
+
 
     .row.mb-5.justify-content-center
       .col-12.col-md-8.mb-4.mb-md-0

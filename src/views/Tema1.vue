@@ -16,19 +16,22 @@
         .bloque-texto-b.p-4
           .bloque-texto-b__texto.h4.mb-0 La Seguridad y Salud en el Trabajo -SST- es la disciplina que trata la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de la protección y promoción de la salud de los trabajadores
 
-          p (Ministerio del Trabajo, s.f.).
+          p.z2 (Ministerio del Trabajo, s.f.).
 
     p.mb-4 Según la Ley 1562 de 2012  el Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST busca con la participación de varias disciplinas y con el compromiso activo de todos los niveles de la organización optimizar las condiciones de trabajo y de salud de la población trabajadora, mediante acciones coordinadas de promoción de estilos de trabajo y vida saludables, la prevención y el control de los factores de riesgos, de manera que faciliten el bienestar de la comunidad laboral y la eficiencia del Ministerio.
 
     p.mb-4 Así como también el SG-SST busca garantizar que en el lugar de trabajo todos y cada uno de los operarios tengan el conocimiento necesario para realizar las labores, además que cuenten con el equipo adecuado para que haya una práctica segura y que, en el imprevisto de algún accidente, se cuente con lo mínimo para ser atendidos oportunamente, desde la capacitación como contar con los elementos necesarios. 
 
     .row.mb-5.justify-content-center
-      .col-6
-        p.mb-4 “La Seguridad y Salud en el Trabajo -SST- es la disciplina que trata la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de la protección y promoción de la salud de los trabajadores” (Ministerio del Trabajo, s.f.).
+      .col-lg-6.mb-4
+        p.mb-4
+          | “El 
+          strong Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST) 
+          | debe ser implementado por todos los empleadores, que consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales” (Ministerio del Trabajo, 2020). 
 
-        p Según la Ley 1562 de 2012  el Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST busca con la participación de varias disciplinas y con el compromiso activo de todos los niveles de la organización optimizar las condiciones de trabajo y de salud de la población trabajadora, mediante acciones coordinadas de promoción de estilos de trabajo y vida saludables, la prevención y el control de los factores de riesgos, de manera que faciliten el bienestar de la comunidad laboral y la eficiencia del Ministerio.
+        p “El sistema de gestión aplica a todos los empleadores públicos y privados, los trabajadores dependientes e independientes, los trabajadores cooperados, los trabajadores en misión, los contratantes de personal bajo modalidad de contrato civil, comercial o administrativo, las organizaciones de economía solidaria y del sector cooperativo, las empresas de servicios temporales, las agremiaciones u asociaciones que afilian trabajadores independientes” (Ministerio del Trabajo, 2020).
 
-      .col-6
+      .col-lg-6
         figure
           img(src='@/assets/curso/tema1/img02.svg', alt='Sistemas de gestión de la seguridad y salud en el trabajo')
     
@@ -59,7 +62,7 @@
     p.mb-5 De acuerdo con las BPA la o las personas capacitadas en primeros auxilios (mínimo una, en la producción agrícola o finca) debe de permanecer en esta en el momento de llevar a cabo las labores para atender una posible emergencia. Además, en la implementación de BPA se encuentra la inocuidad de los productos como pilar fundamental, por ello es indispensable contar con la información básica sobre la higiene en la que se incluye: comer y beber en áreas designadas, mantener las manos limpias, usar los trajes o equipos de protección personal de acuerdo con la labor, y avisar cualquier problema de salud o infección que se pueda presentar. 
 
     #t_1_3.titulo-segundo
-      .h4 1.3. Estándares mínimos según el tipo de empresa
+      .h4 1.3 Estándares mínimos según el tipo de empresa
     
     p.mb-4 Entre las ventajas que tiene el SG-SST es la de mejorar el ambiente de trabajo, el bienestar y la calidad de vida laboral, así como también la reducción de accidentalidad y mortalidad, ausentismo del puesto de trabajo debido a enfermedades que se puedan presentar en el momento de las labores y, cómo contribuir al aumento de la producción agrícola. También es importante tener en cuenta que el SG-SST es el encargado de velar por el cumplimiento de las normas, requisitos y procedimientos de las empresas y contratantes en riesgos laborales. 
 
@@ -80,8 +83,7 @@
         tbody
           tr
             td Asignación de persona que diseña el Sistema de Gestión de SST
-            td.lineSD 
-              p.mb-4 Asignar una persona que cumpla con el siguiente perfil:
+            td.lineSD
               p.mb-4  El diseño del Sistema de Gestión de Seguridad y Salud en el Trabajo para empresas de menos de diez trabajadores en clase de riesgo I, II, III puede ser realizado por un técnico en Seguridad y Salud en el Trabajo (SST) o en alguna de sus áreas con licencia vigente en Seguridad y Salud en el Trabajo, que acredite mínimo un año de experiencia certificada por las empresas o entidades en las que laboró en el desarrollo de actividades de Seguridad y Salud en el Trabajo y que acredite la aprobación del curso de capacitación virtual de cincuenta horas.
               p Esta actividad también podrá ser desarrollada por tecnólogos, profesionales y profesionales con posgrado en SST, que cuenten con licencia vigente en Seguridad y Salud en el Trabajo y el referido curso de capacitación virtual de cincuenta horas. 
             td Solicitar documento soporte de la asignación y constatar la hoja de vida con soportes, de la persona asignada. 
@@ -91,8 +93,26 @@
             td Solicitar documento soporte de afiliación y del pago correspondiente.
           tr
             td Asignación de persona que diseña el Sistema de Gestión de SST
-            td.lineSD Asignar una persona que cumpla con el siguiente perfil:
-            td Solicitar documento soporte de la asignación y constatar la hoja de vida con soportes, de la persona asignada. 
+            td.lineSD Elaborar y ejecutar programa o actividades de capacitación en promoción y prevención, que incluya como mínimo lo referente a los peligros/riesgos prioritarios y las medidas de prevención y control.
+            td Solicitar documento soporte de las acciones de capacitación realizadas/planillas, donde se evidencie la firma de los trabajadores.
+          tr
+            td Plan Anual de Trabajo
+            td.lineSD Elaborar el Plan Anual de Trabajo del Sistema de Gestión de SST, firmado por el empleador o contratante, en el que se identifiquen como mínimo: objetivos, metas, responsabilidades, recursos y cronograma anual.
+            td Solicitar documento que contenga el Plan Anual de Trabajo.
+          tr
+            td Evaluaciones médicas ocupacionales
+            td.lineSD Realizar las evaluaciones médicas ocupacionales de acuerdo con la normatividad y los peligros/riesgos a los cuales se encuentre expuesto el trabajador.
+            td Conceptos emitidos por el médico evaluador en los cuales informe recomendaciones y restricciones laborales.
+          tr
+            td Identificación de peligros; evaluación y valoración de riesgos
+            td.lineSD Realizar la identificación de peligros y la evaluación y valoración de los riesgos con el acompañamiento de la ARL. Realizar las evaluaciones médicas ocupacionales de acuerdo con la normatividad y los peligros/riesgos a los cuales se encuentre expuesto el trabajador.
+            td 
+              p Solicitar documento con la identificación de peligros, evaluación y valoración de los riesgos.
+              p Constancia de acompañamiento de la ARL - acta de visita ARL.
+          tr
+            td Medidas de prevención y control frente a peligros/riesgos identificados
+            td.lineSD Ejecutar las actividades de prevención y control de peligros y/o riesgos, con base en el resultado de la identificación de peligros, la evaluación y valoración de los riesgos. 
+            td Solicitar documento soporte con acciones ejecutadas.
 
     .row.mb-5.justify-content-center
       .col-5
@@ -100,10 +120,12 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p Para profundizar observe el video “Modificación estándares mínimos de SG-SST en Colombia”
+            p 
+              strong Para profundizar observe el video 
+              | “Modificación estándares mínimos de SG-SST en Colombia”
 
     #t_1_4.titulo-segundo
-      .h4 1.4. Peligros asociados a la producción agrícola
+      .h4 1.4 Peligros asociados a la producción agrícola
     
     p.mb-4 A partir de la definición de peligro “fuente, situación o acto con potencial de causar daño en la salud de los trabajadores, en los equipos o en las instalaciones” (Decreto 1072 de 2015, Art. 2.2.4.6.2), se relacionan algunos de los peligros en las labores de las unidades productivas o en la empresa agrícola:
 
@@ -183,7 +205,7 @@
             |	Intensidad en el ritmo de trabajo.
 
     #t_1_5.titulo-segundo
-      .h4 1.5. Riesgos asociados a la producción agrícola
+      .h4 1.5 Riesgos asociados a la producción agrícola
     
     p.mb-5 Buena parte del trabajo agrícola es, por naturaleza, físicamente exigente. El riesgo de accidentes aumenta con el cansancio, la utilización de herramientas poco ergonómicas, las dificultades del terreno, la exposición a condiciones climáticas extremas y la mala salud general que se asocia a trabajar y vivir en comunidades rurales remotas. Estos problemas se ven agravados por el hecho de que las condiciones de trabajo y de vida terminan solapándose.  En términos de fallecimientos, lesiones y problemas de salud relacionados con el trabajo, el sector agrícola es uno de los tres sectores de actividad más peligrosos junto con la construcción y la minería (OIT, 2015).
 
@@ -192,41 +214,41 @@
         .tarjeta-Avatar-b.mb-5
           img.minWC(src='@/assets/curso/tema1/risk01.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.p-4
-            .h4 Riesgo físico
+            .h6 Riesgo físico
             p Están relacionados factores ambientales que actúan sobre los tejidos y órganos del cuerpo de la persona trabajadora, que pueden producir efectos nocivos, de acuerdo con la intensidad y tiempo de exposición. Entre las labores se encuentran: preparación del terreno, siembra y resiembra, mantenimiento del cultivo, cosecha, manejo integrado de plagas, postcosecha.
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema1/risk02.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Riesgo biológico
+              .h6 Riesgo biológico
               p Son agentes orgánicos como los hongos, virus, bacterias, parásitos, insectos presentes en determinados ambientes laborales, que pueden desencadenar enfermedades infectocontagiosas, reacciones alérgicas o intoxicaciones al ingresar al organismo. Entre las labores se encuentran: preparación del terreno, siembra y resiembra, mantenimiento del cultivo, cosecha, manejo integrado de plagas, postcosecha.
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema1/risk03.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Riesgo químico
+              .h6 Riesgo químico
               p Toda sustancia orgánica, inorgánica, natural o sintética que durante la fabricación, manejo, transporte, almacenamiento y uso pueda incorporarse al aire ambiente y ser inhalada; entrar en contacto con la piel o ser ingerida, con efectos irritantes, corrosivos, asfixiantes o tóxicos y en cantidades o tiempos de exposición que tengan probabilidades de lesionar la salud de las personas.  Entre las labores se encuentran: manejo integrado de plagas, enfermedades y arvenses de los cultivos, cosecha y postcosecha.      
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema1/risk04.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Riesgo locativo
+              .h6 Riesgo locativo
               p Cuando se trata de construcción, mantenimiento, topografía del terreno y deterioro de instalaciones locativas. Entre las labores se encuentran: preparación del terreno y postcosecha.
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema1/risk05.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Riesgo mecánico
+              .h6 Riesgo mecánico
               p Factores laborales por la acción mecánica de máquinas, equipos, herramientas o materiales proyectados sólidos o fluidos que pueden conllevar a producir un accidente. Entre las labores se encuentran: preparación del terreno, siembra, resiembra, aplicación de plaguicidas, cosecha, postcosecha.
       .col-lg-10
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema1/risk06.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Riesgo ergonómico
+              .h6 Riesgo ergonómico
               p Son aquellos que se producen cuando el trabajador se encuentra en su lugar de trabajo y en este, se hacen movimientos, acciones o posturas que producen daño a la salud. Entre las labores se encuentran todas aquellas que corresponden al desarrollo del cultivo.
 
     #t_1_6.titulo-segundo
-      .h4 1.6. Lesiones por accidentes de trabajo asociados a la producción agrícola
+      .h4 1.6 Lesiones por accidentes de trabajo asociados a la producción agrícola
     
     p.mb-4 Cuando se habla de implementación de BPA en la empresa agrícola es frecuente que se produzcan accidentes laborales de trabajadores en las labores que desempeñan diariamente en las unidades productivas. A continuación, se listan algunas de las lesiones que se encuentran después de sufrir un accidente por las labores realizadas en la unidad productiva o empresa agrícola.
 
@@ -236,6 +258,9 @@
     .row.mb-5
       .col-sm.mb-5.mb-sm-0
         ul.lista-ul
+          li 
+            i.fas.fa-angle-right
+            |	Riesgos con la maquinaria agrícola. 
           li 
             i.fas.fa-angle-right
             |	Electrocución con línea eléctrica.
@@ -307,7 +332,7 @@ export default {
       {
         titulo: 'Resolución 2013 de junio 6 de 1986',
         texto:
-          'Del Ministerio de Trabajo y Seguridad Social y Ministerio de Salud, por la cual se reglamenta la organización y funcionamiento de los comités paritarios de salud ocupacional en los lugares de trabajo (COPASO), hoy llamado comités paritarios de seguridad y salud en el trabajo (COPASST).',
+          'Del Ministerio de Trabajo y Seguridad Social y Ministerio de Salud, por la cual se reglamenta la organización y funcionamiento de los comités paritarios de salud ocupacional en los lugares de trabajo (COPASO), hoy llamados comités paritarios de seguridad y salud en el trabajo (COPASST).',
         icono: require('@/assets/curso/tema1/resolution.svg'),
       },
       {
