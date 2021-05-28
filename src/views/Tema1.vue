@@ -108,7 +108,7 @@
             td Conceptos emitidos por el médico evaluador en los cuales informe recomendaciones y restricciones laborales.
           tr
             td Identificación de peligros; evaluación y valoración de riesgos
-            td.lineSD Realizar la identificación de peligros y la evaluación y valoración de los riesgos con el acompañamiento de la ARL. Realizar las evaluaciones médicas ocupacionales de acuerdo con la normatividad y los peligros/riesgos a los cuales se encuentre expuesto el trabajador.
+            td.lineSD Realizar la identificación de peligros y la evaluación y valoración de los riesgos con el acompañamiento de la ARL.
             td 
               p Solicitar documento con la identificación de peligros, evaluación y valoración de los riesgos.
               p Constancia de acompañamiento de la ARL - acta de visita ARL.

@@ -262,7 +262,7 @@
       .col-8
         p.mb-4 Para poder identificar los documentos tenga en cuenta la estructura general de un documento; la cual se explica a continuación:
     
-    h4.text-center Estructura general del documento administrativo
+    h5.text-center Estructura general del documento administrativo
 
     p.mb-4 Lo esencial de cualquier documento es su contenido y la claridad con que se expone, pero la manera de presentarlo también influirá en la facilidad con que se pueda leer. Una adecuada disposición gráfica del documento ayudará a que el lector capte a primera vista la información importante, la organización interna, sus diferentes divisiones antropomórficas: encabezamiento, cuerpo y pie. Examine los criterios generales que debe aplicar en cada una de ellas.
 

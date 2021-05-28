@@ -31,22 +31,30 @@
         ul.lista-ul
           li
             i.fas.fa-angle-right
-            |	El suelo: conservación de la capacidad productiva del suelo (fertilidad química y física), erosión eólica y/o hídrica.
+            p
+              strong El suelo: 
+              | conservación de la capacidad productiva del suelo (fertilidad química y física), erosión eólica y/o hídrica.
           li
             i.fas.fa-angle-right
             |	Recursos hídricos en cuanto a cursos de agua superficial y subsuperficial: polución difusa, eutrofización de cuerpos de agua.
           li
             i.fas.fa-angle-right
-            |	El aire: emisión de gases por quema de residuos (bidones de productos fitosanitarios, por ejemplo).
+            p
+              strong El aire:  
+              | emisión de gases por quema de residuos (bidones de productos fitosanitarios, por ejemplo).
           li
             i.fas.fa-angle-right
-            |	Manejo de residuos: realizar el triple lavado e inutilización de bidones plásticos de productos fitosanitarios.
+            p
+              strong Manejo de residuos:  
+              | realizar el triple lavado e inutilización de bidones plásticos de productos fitosanitarios.
           li
             i.fas.fa-angle-right
             |	Identificar los centros de acopio cercanos al establecimiento para realizar la deposición final, teniendo en cuenta la legislación, según corresponda.
           li
             i.fas.fa-angle-right
-            |	La biodiversidad: relevar si se cuenta con un área protegida (parque nacional, reserva ecológica, etc.) en las cercanías del establecimiento para dimensionar el impacto de la actividad sobre las especies. Promocionar la implantación de zonas “buffer” o “barreras vegetales”.
+            p
+              strong biodiversidad: 
+              | relevar si se cuenta con un área protegida (parque nacional, reserva ecológica, etc.) en las cercanías del establecimiento para dimensionar el impacto de la actividad sobre las especies. Promocionar la implantación de zonas “buffer” o “barreras vegetales”.
 
     p.mb-4 La identificación de riesgos debe ser seguida de una priorización sobre la cual se basa la planificación de incorporación progresiva de procesos asociados al cuidado del ambiente.
 
@@ -75,14 +83,14 @@
         .tarjeta-Avatar-b.mb-4
             img.minWC(src='@/assets/curso/tema2/img01.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Parte 2. Reglamentaciones - Título 2 - Biodiversidad:
+              .h5 Parte 2. Reglamentaciones - Título 2 - Biodiversidad:
               p Capítulo 1. Flora silvestre -Sección 18- Conservación de los recursos naturales en predios rurales.
 
       .col-lg-10
         .tarjeta-Avatar-b.mb-4
             img.minWC(src='@/assets/curso/tema2/img02.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Título 3 - Aguas no marítimas:
+              .h5 Título 3 - Aguas no marítimas:
               p.mb-4 Capítulo 2. Uso y aprovechamiento del agua - Sección 1- Sección 5 a 7 - Sección 22.
 
               p Capítulo 3. Ordenamiento del recurso hídrico y vertimientos - Sección 4 - Artículo   2.2.3.3.4.19. Control de contaminación por agroquímicos.  - Sección 9 - Artículo   2.2.3.3.9.5. TRANSITORIO. Criterios de calidad para uso agrícola.
@@ -91,7 +99,7 @@
         .tarjeta-Avatar-b.mb-4
             img.minWC(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Título 6 - Residuos peligrosos:
+              .h5 Título 6 - Residuos peligrosos:
               p.mb-4 Sección 4.  De la gestión y manejo de los empaques, envases, embalajes y residuos de productos o sustancias químicas con propiedad o característica peligrosa.
 
               p Sección 6. Del registro de generadores de residuos o desechos peligrosos.
@@ -100,7 +108,7 @@
         .tarjeta-Avatar-b.mb-5
             img.minWC(src='@/assets/curso/tema2/img04.svg' alt='AvatarTop')
             .tarjeta.tarjeta--azul.p-4
-              .h4 Título 7 - Prevención y control contaminación ambiental por el manejo de plaguicidas:
+              .h5 Título 7 - Prevención y control contaminación ambiental por el manejo de plaguicidas:
               p.mb-4 Capítulo 3. Del manejo integral de plaguicidas - Artículo   2.2.7.3.1.2. Consumo de plaguicidas.
 
               p Artículo   2.2.7.3.1.3. Almacenamiento de plaguicidas.
