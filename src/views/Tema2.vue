@@ -53,7 +53,7 @@
           li
             i.fas.fa-angle-right
             p
-              strong biodiversidad: 
+              strong La biodiversidad: 
               | relevar si se cuenta con un área protegida (parque nacional, reserva ecológica, etc.) en las cercanías del establecimiento para dimensionar el impacto de la actividad sobre las especies. Promocionar la implantación de zonas “buffer” o “barreras vegetales”.
 
     p.mb-4 La identificación de riesgos debe ser seguida de una priorización sobre la cual se basa la planificación de incorporación progresiva de procesos asociados al cuidado del ambiente.
