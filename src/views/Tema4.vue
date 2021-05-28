@@ -295,7 +295,7 @@
                 figure
                   img(src='@/assets/curso/tema4/img08.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Cuerpo" :icono="require('@/assets/curso/tema4/icon08.svg')")
+      .py-4.py-md-5(titulo="Cuerpo" :icono="require('@/assets/curso/tema4/icon09.svg')")
         .row.mb-10.justify-content-center
           .col-10
             .row
@@ -306,7 +306,7 @@
                 figure
                   img(src='@/assets/curso/tema4/img11.svg', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Pie" :icono="require('@/assets/curso/tema4/icon08.svg')")
+      .py-4.py-md-5(titulo="Pie" :icono="require('@/assets/curso/tema4/icon10.svg')")
         .row.mb-10.justify-content-center
           .col-10
             .row

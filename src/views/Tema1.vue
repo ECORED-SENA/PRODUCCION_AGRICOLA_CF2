@@ -74,7 +74,9 @@
 
     .tabla-d.mb-4
       table
-        caption Nota: tomado del Capítulo I, Artículo 3, Resolución 0312 del 13 de febrero de 2019. Estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST. Ministerio del Trabajo (2019)
+        caption 
+          strong Nota: 
+          | tomado del Capítulo I, Artículo 3, Resolución 0312 del 13 de febrero de 2019. Estándares mínimos del Sistema de Gestión de Seguridad y Salud en el Trabajo SG-SST. Ministerio del Trabajo (2019)
         thead
           tr
             th Ítem
@@ -84,7 +86,8 @@
           tr
             td Asignación de persona que diseña el Sistema de Gestión de SST
             td.lineSD
-              p.mb-4  El diseño del Sistema de Gestión de Seguridad y Salud en el Trabajo para empresas de menos de diez trabajadores en clase de riesgo I, II, III puede ser realizado por un técnico en Seguridad y Salud en el Trabajo (SST) o en alguna de sus áreas con licencia vigente en Seguridad y Salud en el Trabajo, que acredite mínimo un año de experiencia certificada por las empresas o entidades en las que laboró en el desarrollo de actividades de Seguridad y Salud en el Trabajo y que acredite la aprobación del curso de capacitación virtual de cincuenta horas.
+              p.mb-4 Asignar una persona que cumpla con el siguiente perfil:
+              p.mb-4 El diseño del Sistema de Gestión de Seguridad y Salud en el Trabajo para empresas de menos de diez trabajadores en clase de riesgo I, II, III puede ser realizado por un técnico en Seguridad y Salud en el Trabajo (SST) o en alguna de sus áreas con licencia vigente en Seguridad y Salud en el Trabajo, que acredite mínimo un año de experiencia certificada por las empresas o entidades en las que laboró en el desarrollo de actividades de Seguridad y Salud en el Trabajo y que acredite la aprobación del curso de capacitación virtual de cincuenta horas.
               p Esta actividad también podrá ser desarrollada por tecnólogos, profesionales y profesionales con posgrado en SST, que cuenten con licencia vigente en Seguridad y Salud en el Trabajo y el referido curso de capacitación virtual de cincuenta horas. 
             td Solicitar documento soporte de la asignación y constatar la hoja de vida con soportes, de la persona asignada. 
           tr
@@ -92,7 +95,7 @@
             td.lineSD Afiliación a los Sistemas de Seguridad Social en Salud, Pensión y Riesgos Laborales de acuerdo con la normatividad vigente.
             td Solicitar documento soporte de afiliación y del pago correspondiente.
           tr
-            td Asignación de persona que diseña el Sistema de Gestión de SST
+            td Capacitación en SST
             td.lineSD Elaborar y ejecutar programa o actividades de capacitación en promoción y prevención, que incluya como mínimo lo referente a los peligros/riesgos prioritarios y las medidas de prevención y control.
             td Solicitar documento soporte de las acciones de capacitación realizadas/planillas, donde se evidencie la firma de los trabajadores.
           tr

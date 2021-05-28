@@ -206,15 +206,9 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Tania Yaneth Ramírez Benítez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
         nombre: 'Claudia Patricia Sánchez Peñaranda',
         cargo: 'Instructora',
-        centro: 'AgroSENA',
+        centro: 'AGROSENA',
       },
       {
         nombre: 'Fredy Orlando Ibáñez Morales',
@@ -251,10 +245,10 @@ export default {
         nombre: [
           'Angela Maldonado Jaime',
           'Camilo Villamizar',
-          'Carolina Tamayo',
-          'John Archiniegas',
-          'Junior Rodriguez',
-          'Laura Murcia Pardo',
+          'Maria Carolina Tamayo López',
+          'John Jairo Archiniegas González',
+          'Gilberto Junior Rodríguez Rodríguez',
+          'Laura Gisselle Murcia Pardo',
           'Lina Marcela Perez',
           'Oscar Julian Marquez Sanabria',
           'Ricardo Vasquez Arroyave',
@@ -269,7 +263,7 @@ export default {
       },
       {
         nombre: 'Jenny Paola Montillo Gélvez',
-        cargo: 'Revisora de estilo',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
